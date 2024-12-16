@@ -1,3 +1,4 @@
+import { Josefin_Sans } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -8,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        Jose: ["Josefin Sans", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
