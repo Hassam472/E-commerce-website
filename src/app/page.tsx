@@ -23,11 +23,16 @@ import sofa1 from "@/images/sofa1.png";
 import sofa2 from "@/images/sofa2.png";
 import news from "@/images/news.jpeg";
 import logo from "@/images/logo.png";
+import lb1 from "@/images/lb1.jpeg";
+import lb2 from "@/images/lb2.jpeg";
+import lb3 from "@/images/lb3.jpeg";
 import React from "react";
+
 
 function page() {
   return (
     <>
+    <main>
       <div className="relative max-w-[1920px] h-[764px] bg-[#F2F0FF]">
         <Image src={lamp} alt="lamp" className="h-[387px] w-[387px]" />
 
@@ -776,29 +781,193 @@ function page() {
       </div>
       {/* top Catogaries end */}
 
-      <Image src={news} alt="news" className="absolute top-[6023px] max-w-[1920px] h-[462px]"/>
+      <Image
+        src={news}
+        alt="news"
+        className="absolute top-[6023px] max-w-[1920px] h-[462px]"
+      />
       <h1 className="absolute top-[6197px] text-center left-[673px] text-[#151875] text-[35px] font-Jose font-bold">
-        Get Leatest Update By Subscribe<br />0ur Newslater
+        Get Leatest Update By Subscribe
+        <br />
+        0ur Newslater
       </h1>
       <button
-          className="absolute top-[6333px] left-[873px] w-[173px] h-[49px] bg-[#FB2E86] 
+        className="absolute top-[6333px] left-[873px] w-[173px] h-[49px] bg-[#FB2E86] 
         text-[17px] font-Jose text-[#FFFFFF] rounded-[2px]"
-        >
-          Shop Now
-        </button>
+      >
+        Shop Now
+      </button>
 
-        <Image src={logo} alt="logo" className="absolute top-[6581px] left-[508px] w-[904px] h-[93pxpx]"/>
-    
-    {/* newslater end */}
+      <Image
+        src={logo}
+        alt="logo"
+        className="absolute top-[6581px] left-[508px] w-[904px] h-[93pxpx]"
+      />
 
-    <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[6770px] left-[833px]">
-    Leatest Blog
+      {/* newslater end */}
+
+      <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[6770px] left-[833px]">
+        Leatest Blog
       </h1>
 
-      <div className="absolute top-[6892px] left-[349px] w-[370px] h-[493px] 
-      rounded-[5px] shadow-lg"></div>
-    </>
+      {/* lb1 */}
+      <div
+        className="absolute top-[6892px] left-[349px] w-[370px] h-[493px] 
+      rounded-[5px] shadow-lg"
+      >
+        <Image
+          src={lb1}
+          alt="lb1"
+          className="w-[370px] h-[255px] rounded-[5px] cursor-pointer"
+        />
+        <i className="fa-solid fa-pen-nib absolute top-[274px] left-[13px] text-[#FB2E86]"></i>
+        <p
+          className="absolute top-[274px] left-[33px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          SaberAli
+        </p>
 
+        <i
+          className="fa-solid fa-calendar-days absolute top-[274px] left-[113px] 
+          text-[#FFA454]"
+        ></i>
+        <p
+          className="absolute top-[274px] left-[132px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          21 August,2024
+        </p>
+
+        <h2
+          className="absolute top-[319px] left-[19px] text-[18px] 
+          text-[#151875] font-Jose font-bold "
+        >
+          Top esssential Trends in 2024
+        </h2>
+        <p
+          className="absolute w-[297px] top-[354px] left-[19px] font-lato text-[16px]
+          text-[#72718F]"
+        >
+          More off this less hello samlande lied much over tightly circa horse
+          taped mightly
+        </p>
+        <p
+          className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
+          text-[16px]
+          text-[#151875]"
+        >
+          Read More
+        </p>
+      </div>
+
+      {/* lb2 */}
+      <div
+        className="absolute top-[6892px] left-[775px] w-[370px] h-[493px] 
+      rounded-[5px] shadow-lg"
+      >
+        <Image
+          src={lb2}
+          alt="lb2"
+          className="w-[370px] h-[255px] rounded-[5px] cursor-pointer"
+        />
+        <i className="fa-solid fa-pen-nib absolute top-[274px] left-[13px] 
+        text-[#FB2E86]"></i>
+        <p
+          className="absolute top-[274px] left-[33px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          Surfauxion
+        </p>
+
+        <i
+          className="fa-solid fa-calendar-days absolute top-[274px] left-[113px] 
+          text-[#FFA454]"
+        ></i>
+        <p
+          className="absolute top-[274px] left-[132px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          21 August,2024
+        </p>
+
+        <h2
+          className="absolute top-[319px] left-[19px] text-[18px] 
+          text-[#FB2E86] font-Jose font-bold "
+        >
+          Top esssential Trends in 2024
+        </h2>
+        <p
+          className="absolute w-[297px] top-[354px] left-[19px] font-lato text-[16px]
+          text-[#72718F]"
+        >
+          More off this less hello samlande lied much over tightly circa horse
+          taped mightly
+        </p>
+        <p
+          className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
+          text-[16px]
+          text-[#FB2E86]"
+        >
+          Read More
+        </p>
+      </div>
+
+      {/* lb3 */}
+      <div
+        className="absolute top-[6892px] left-[1201px] w-[370px] h-[493px] 
+      rounded-[5px] shadow-lg"
+      >
+        <Image
+          src={lb3}
+          alt="lb3"
+          className="w-[370px] h-[255px] rounded-[5px] cursor-pointer"
+        />
+        <i className="fa-solid fa-pen-nib absolute top-[274px] left-[13px] text-[#FB2E86]"></i>
+        <p
+          className="absolute top-[274px] left-[33px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          SaberAli
+        </p>
+
+        <i
+          className="fa-solid fa-calendar-days absolute top-[274px] left-[113px] 
+          text-[#FFA454]"
+        ></i>
+        <p
+          className="absolute top-[274px] left-[132px] text-[#151875] 
+        text-[14px] font-Jose"
+        >
+          21 August,2024
+        </p>
+
+        <h2
+          className="absolute top-[319px] left-[19px] text-[18px] 
+          text-[#151875] font-Jose font-bold "
+        >
+          Top esssential Trends in 2024
+        </h2>
+        <p
+          className="absolute w-[297px] top-[354px] left-[19px] font-lato text-[16px]
+          text-[#72718F]"
+        >
+          More off this less hello samlande lied much over tightly circa horse
+          taped mightly
+        </p>
+        <p
+          className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
+          text-[16px]
+          text-[#151875]"
+        >
+          Read More
+        </p>
+      </div>
+      </main>
+
+      
+    </>
+    
   );
 }
 
