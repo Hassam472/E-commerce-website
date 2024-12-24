@@ -9,6 +9,7 @@ import sl6 from "@/images/sl6.jpeg";
 import sl7 from "@/images/sl7.jpeg";
 import logo from "@/images/logo.png";
 import Ecommerce from "@/components/Ecommerce";
+import Footer from "@/components/Footer";
 
 function shopList() {
   return (
@@ -431,6 +432,10 @@ function shopList() {
         alt="logo"
         className="absolute top-[2869px] left-[508px] w-[904px] h-[93px]"
       />
+
+<footer className="absolute top-[3094px]">
+        <Footer/>
+      </footer>
     </>
   );
 }

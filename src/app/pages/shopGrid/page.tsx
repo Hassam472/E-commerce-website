@@ -13,6 +13,7 @@ import sg10 from "@/images/sg10.png";
 import sg11 from "@/images/sg11.png";
 import logo from "@/images/logo.png";
 import Ecommerce from "@/components/Ecommerce";
+import Footer from "@/components/Footer";
 
 function shopGrid() {
   return (
@@ -493,6 +494,10 @@ function shopGrid() {
         alt="logo"
         className="absolute top-[2057px] left-[508px] w-[904px] h-[93px]"
       />
+      <footer className="absolute top-[2233px]">
+        <Footer/>
+      </footer>
+      
     </>
   );
 }

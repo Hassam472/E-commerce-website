@@ -5,8 +5,7 @@ import icon from '@/images/icon.jpg';
 function Footer() {
   return (
     <>
-    <footer>
-    <div className='relative w-[1920px] h-[479px]
+    <div className='w-[1920px] h-[479px]
      bg-[#EEEFFB]'>
     <h2 className='absolute top-[95px] left-[310px] text-[38px] text-[#000000]
     font-Jose font-bold cursor-pointer'>Hekto</h2>
@@ -84,7 +83,6 @@ function Footer() {
       text-[#9DA0AE]'>©Muhammad Hassam Uddin - All Rights Reserved</p>
       <Image src={icon} alt='icon' className='w-[80px] h-[20px]'/>
     </div>
-    </footer>
     </>
   )
 }

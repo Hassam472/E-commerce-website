@@ -27,6 +27,7 @@ import lb1 from "@/images/lb1.jpeg";
 import lb2 from "@/images/lb2.jpeg";
 import lb3 from "@/images/lb3.jpeg";
 import React from "react";
+import Footer from "@/components/Footer";
 
 
 function page() {
@@ -964,6 +965,10 @@ function page() {
         </p>
       </div>
       </main>
+
+      <footer className="absolute top-[7600px]">
+        <Footer/>
+      </footer>
 
       
     </>

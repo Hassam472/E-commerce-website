@@ -21,7 +21,9 @@ function Navbar() {
             <Link href="/pages/shopGrid">
               <li>Pages</li>
             </Link>
-            <li>Products</li>
+            <Link href="/product">
+              <li>Product</li>
+            </Link>
             <li>Blogs</li>
             <li>Shop</li>
             <li>Contact</li>
