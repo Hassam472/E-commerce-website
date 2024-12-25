@@ -6,6 +6,7 @@ import c2 from "@/images/c2.jpeg";
 import c3 from "@/images/c3.jpeg";
 import c4 from "@/images/c4.jpeg";
 import c5 from "@/images/c5.jpeg";
+import Link from "next/link";
 
 function page() {
   return (
@@ -53,6 +54,17 @@ function page() {
         <Image src={c3} alt="c3" className="w-[83px] h-[87px]" />
         <Image src={c4} alt="c4" className="w-[83px] h-[87px]" />
         <Image src={c5} alt="c5" className="w-[83px] h-[87px]" />
+      </div>
+
+      <div
+        className="absolute space-y-[102px] top-[601px] left-[449px] 
+      text-[12px] text-[#000000] w-[13px]"
+      >
+        <i className="fa-solid fa-circle-xmark"></i>
+        <i className="fa-solid fa-circle-xmark"></i>
+        <i className="fa-solid fa-circle-xmark"></i>
+        <i className="fa-solid fa-circle-xmark"></i>
+        <i className="fa-solid fa-circle-xmark"></i>
       </div>
 
       <div
@@ -182,13 +194,15 @@ function page() {
         Shipping & taxes calculated at checkout
       </p>
 
-      <button
-        className="absolute top-[813px] left-[1203px] font-lato
+      <Link href="/pages/order">
+        <button
+          className="absolute top-[813px] left-[1203px] font-lato
       text-[14px] text-[#FFFFFF] text-center w-[312px] h-[40px]
       font-bold rounded bg-[#19D16F]"
-      >
-        Proceed To Checkout
-      </button>
+        >
+          Proceed To Checkout
+        </button>
+      </Link>
 
       <p
         className="absolute top-[917px] left-[1261px] font-Jose
@@ -230,6 +244,15 @@ function page() {
         <p className="border-b-[1px] border-[#C7CEE4]"></p>
         <p className="border-b-[1px] border-[#C7CEE4]"></p>
         <p className="border-b-[1px] border-[#C7CEE4]"></p>
+      </div>
+
+      <div
+        className="absolute space-y-[42px] top-[1007px] left-[1206px] 
+      w-[135px] text-[#C5CBE3] text-[14px] font-Jose"
+      >
+        <p>Bangladesh</p>
+        <p>Mirpur Dhaka - 1200</p>
+        <p>Postal Code</p>
       </div>
 
       <footer className="absolute top-[1394px]">
