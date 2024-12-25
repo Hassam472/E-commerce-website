@@ -25,7 +25,7 @@ function HeadingBar() {
         <ul className='flex space-x-7'>
           <li>English <i className="fa-solid fa-v text-[8px]"></i></li>
           <li>USD <i className="fa-solid fa-v text-[8px]"></i></li>
-          <li>Login <i className="fa-regular fa-user text-[12px]"></i></li>
+          <Link href="/pages/login"><li>Login <i className="fa-regular fa-user text-[12px]"></i></li></Link>
           <li>Wishlist <i className="fa-regular fa-heart text-[12px]"></i></li>
           <Link href="/pages/cart"><i className="fa-solid fa-cart-shopping text-xl"></i></Link>
         </ul>

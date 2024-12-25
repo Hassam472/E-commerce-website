@@ -4,6 +4,7 @@ import logo from "@/images/logo.png";
 import o1 from "@/images/o1.png";
 import o2 from "@/images/o2.png";
 import o3 from "@/images/o3.png";
+import Link from "next/link";
 import Footer from "@/components/Footer";
 
 function page() {
@@ -50,21 +51,25 @@ function page() {
         your order is completed.
       </p>
 
-      <button
-        className="absolute top-[859px] left-[869px] font-lato
+      <Link href="/pages/demo">
+        <button
+          className="absolute top-[859px] left-[869px] font-lato
       text-[16px] text-[#FFFFFF] text-center w-[208px] h-[59px] 
       rounded-[3px] bg-[#FF1788] font-semibold"
-      >
-        Continue Shopping
-      </button>
+        >
+          Continue Shopping
+        </button>
+      </Link>
 
       <Image src={o1} alt="o1" className="absolute top-[592px] left-[927px]" />
-      <i className="fa-solid fa-check absolute top-[600px] left-[942px]
-       text-[#FF1788] text-[60px] rounded-full bg-[#FFFFFF]"></i>
+      <i
+        className="fa-solid fa-check absolute top-[600px] left-[942px]
+       text-[#FF1788] text-[60px] rounded-full bg-[#FFFFFF]"
+      ></i>
 
-<Image src={o2} alt="o2" className="absolute top-[630px] left-[415px]" />
+      <Image src={o2} alt="o2" className="absolute top-[630px] left-[415px]" />
 
-<Image src={o3} alt="o3" className="absolute top-[945px] left-[1483px]" />
+      <Image src={o3} alt="o3" className="absolute top-[945px] left-[1483px]" />
 
       <Image
         src={logo}
