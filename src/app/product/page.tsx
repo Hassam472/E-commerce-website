@@ -5,6 +5,12 @@ import pr1 from "@/images/pr1.jpeg";
 import pr2 from "@/images/pr2.jpeg";
 import pr3 from "@/images/pr3.jpeg";
 import pr4 from "@/images/pr4.jpeg";
+import rp1 from "@/images/rp1.jpeg";
+import rp2 from "@/images/rp2.jpeg";
+import rp3 from "@/images/rp3.jpeg";
+import rp4 from "@/images/rp4.jpeg";
+import logo from "@/images/logo.png";
+import Footer from "@/components/Footer";
 
 function page() {
   return (
@@ -176,6 +182,138 @@ function page() {
       >
         More details
       </p>
+
+      <p
+        className=" w-[1153px] leading-10 absolute top-[1561px] left-[405px] 
+    text-[16px] text-[#A9ACC6] font-Jose"
+      >
+        Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu,
+        nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
+        massa viverr .Aliquam dis vulputate vulputate integer sagittis. Faucibus
+        ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate
+        nunc nec. Dui, massa viverr .Aliquam dis vulputate vulputate integer
+        sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in
+        fringilla vulputate nunc nec. Dui, massa viverr .Aliquam dis vulputate
+        vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo
+        netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
+      </p>
+      <div
+        className="flex flex-col h-[140px] justify-between absolute
+       top-[1569px] left-[380px] text-[18px]"
+      >
+        <i className="fa-solid fa-arrow-right"></i>
+        <i className="fa-solid fa-arrow-right"></i>
+        <i className="fa-solid fa-arrow-right"></i>
+        <i className="fa-solid fa-arrow-right"></i>
+      </div>
+
+      <h1
+        className="absolute top-[1947px] left-[371px] font-Jose
+      text-[36px] text-[#101750] font-bold"
+      >
+        Related Products
+      </h1>
+
+      <Image
+        src={rp1}
+        alt="rp1"
+        className="w-[270px] h-[340px] absolute 
+    top-[2030px] left-[371px] rounded"
+      />
+
+      <Image
+        src={rp2}
+        alt="rp2"
+        className="w-[250px] h-[316px] absolute 
+    top-[2042px] left-[680px] rounded"
+      />
+
+      <Image
+        src={rp3}
+        alt="rp3"
+        className="w-[270px] h-[340px] absolute 
+    top-[2030px] left-[969px] rounded"
+      />
+
+      <Image
+        src={rp4}
+        alt="rp4"
+        className="w-[270px] h-[340px] absolute 
+    top-[2030px] left-[1268px] rounded"
+      />
+
+      <div
+        className="text-[#151875] text-[16px] w-[147px] font-Jose absolute 
+          top-[2390px] left-[377px] font-semibold"
+      >
+        Mens Fashion Wear
+        <p className="text-[13px] pt-[14px]">$43.00</p>
+      </div>
+
+      <div className="absolute top-[2390px] left-[572px] text-[9px] space-x-1">
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      </div>
+
+      <div
+        className="text-[#151875] text-[16px] w-[147px] font-Jose absolute 
+          top-[2390px] left-[673px] font-semibold"
+      >
+        Women’s Fashion
+        <p className="text-[13px] pt-[14px]">$67.00</p>
+      </div>
+
+      <div className="absolute top-[2390px] left-[861px] text-[9px] space-x-1">
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+      </div>
+
+      <div
+        className="text-[#151875] text-[16px] w-[187px] font-Jose absolute 
+          top-[2387px] left-[975px] font-semibold"
+      >
+        Wolx Dummy Fashion
+        <p className="text-[13px] pt-[14px]">$67.00</p>
+      </div>
+
+      <div className="absolute top-[2390px] left-[1170px] text-[9px] space-x-1">
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      </div>
+
+      <div
+        className="text-[#151875] text-[16px] w-[187px] font-Jose absolute 
+          top-[2389px] left-[1276px] font-semibold"
+      >
+        Top Wall Digital Clock
+        <p className="text-[13px] pt-[14px]">$51.00</p>
+      </div>
+
+      <div className="absolute top-[2390px] left-[1469px] text-[9px] space-x-1">
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      </div>
+
+      <Image
+        src={logo}
+        alt="logo"
+        className="absolute top-[2559px] left-[508px] w-[904px] h-[93px]"
+      />
+      <footer className="absolute top-[2751px]">
+        <Footer/>
+      </footer>
     </>
   );
 }
