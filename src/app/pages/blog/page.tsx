@@ -12,6 +12,11 @@ import rc4 from "@/images/rc4.jpeg";
 import sp1 from "@/images/sp1.jpeg";
 import sp2 from "@/images/sp2.jpeg";
 import sp3 from "@/images/sp3.jpeg";
+import pr2 from "@/images/pr2.jpeg";
+import op1 from "@/images/op1.jpeg";
+import op2 from "@/images/op2.jpeg";
+import op3 from "@/images/op3.jpeg";
+import icon from "@/images/icon.jpg";
 
 function page() {
   return (
@@ -208,86 +213,195 @@ function page() {
       </div>
 
       <div className="absolute top-[960px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={rc1} alt="rc1" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={rc1}
+          alt="rc1"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-          It is a long established fact
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            It is a long established fact
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       <div className="absolute top-[1035px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={rc2} alt="rc2" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={rc2}
+          alt="rc2"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-          It is a long established fact
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            It is a long established fact
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       <div className="absolute top-[1110px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={rc3} alt="rc3" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={rc3}
+          alt="rc3"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-          It is a long established fact
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            It is a long established fact
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       <div className="absolute top-[1185px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={rc4} alt="rc4" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={rc4}
+          alt="rc4"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-          It is a long established fact
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            It is a long established fact
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       {/* next */}
       <div className="absolute top-[1340px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={sp1} alt="sp1" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={sp1}
+          alt="sp1"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-        Elit ornare in enim mauris.
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            Elit ornare in enim mauris.
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       <div className="absolute top-[1412px] left-[1297px] w-[250px] h-[51px] flex justify-between">
-        <Image src={sp2} alt="sp2" className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={sp2}
+          alt="sp2"
+          className="w-[70px] h-[51px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">Viverra pulvinar et enim.</p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            Viverra pulvinar et enim.
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
       </div>
 
       <div className="absolute top-[1484px] left-[1297px] w-[250px] h-[57px] flex justify-between">
-        <Image src={sp3} alt="sp3" className="w-[70px] h-[57px] rounded-sm border-[1px] border-green-400" />
+        <Image
+          src={sp3}
+          alt="sp3"
+          className="w-[70px] h-[57px] rounded-sm border-[1px] border-green-400"
+        />
         <div>
-        <p className="text-[14px] text-[#3F509E] font-Jose">
-        Mattis varius donec fdsfd
-        </p>
-        <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
-          Aug 09 2024
-        </p>
+          <p className="text-[14px] text-[#3F509E] font-Jose">
+            Mattis varius donec fdsfd
+          </p>
+          <p className="text-[11px] font-semibold text-[#8A8FB9] font-lato">
+            Aug 09 2024
+          </p>
         </div>
+      </div>
+
+      {/* offer product */}
+      <div
+        className="absolute top-[1665px] left-[1297px] w-[126px] h-[126px] 
+      text-center font-lato font-semibold flex flex-col justify-between"
+      >
+        <Image
+          src={op1}
+          alt="op1"
+          className="w-[126px] h-[80px] rounded-sm 
+        border-[1px] border-green-400"
+        />
+
+        <p className="text-[14px] text-[#151875]">Duis lectus est.</p>
+        <p className="text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+      </div>
+
+      <div
+        className="absolute top-[1665px] left-[1438px] w-[126px] h-[126px] 
+      text-center font-lato font-semibold flex flex-col justify-between"
+      >
+        <Image
+          src={pr2}
+          alt="pr2"
+          className="w-[126px] h-[80px] rounded-sm 
+        border-[1px] border-green-400"
+        />
+
+        <p className="text-[14px] text-[#151875]">Sed placerat.</p>
+        <p className="text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+      </div>
+
+      <div
+        className="absolute top-[1821px] left-[1297px] w-[126px] h-[126px] 
+      text-center font-lato font-semibold flex flex-col justify-between"
+      >
+        <Image
+          src={op2}
+          alt="op2"
+          className="w-[126px] h-[80px] rounded-sm 
+        border-[1px] border-green-400"
+        />
+
+        <p className="text-[14px] text-[#151875]">Netus proin.</p>
+        <p className="text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+      </div>
+
+      <div
+        className="absolute top-[1821px] left-[1438px] w-[126px] h-[126px] 
+      text-center font-lato font-semibold flex flex-col justify-between"
+      >
+        <Image
+          src={op3}
+          alt="op3"
+          className="w-[126px] h-[80px] rounded-sm 
+        border-[1px] border-green-400"
+        />
+
+        <p className="text-[14px] text-[#151875]">Netus proin.</p>
+        <p className="text-[12px] text-[#8A8FB9]">$12.00 - $15.00</p>
+      </div>
+
+      <Image
+        src={icon}
+        alt="icon"
+        className="absolute top-[2029px] left-[1308px] 
+      w-[103px] h-[25px]"
+      />
+
+      <div
+        className="absolute top-[2140px] left-[1297px] w-[228px] h-[64px]
+        font-lato text-[#151875] text-[16px] grid grid-cols-3 grid-rows-2 underline"
+      >
+        <p>General</p>
+        <p className="text-[#FB2E86] underline">Atsanil</p>
+        <p>Insas.</p>
+        <p>Bibsaas</p>
+        <p>Nulla.</p>
       </div>
 
       <Image

@@ -28,6 +28,10 @@ import lb2 from "@/images/lb2.jpeg";
 import lb3 from "@/images/lb3.jpeg";
 import React from "react";
 import Footer from "@/components/Footer";
+import sh1 from "@/images/shopex1.png";
+import sh2 from "@/images/shopex2.png";
+import sh3 from "@/images/shopex3.png";
+import sh4 from "@/images/shopex4.png";
 
 
 function page() {
@@ -414,6 +418,13 @@ function page() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
           gravida.
         </p>
+      </div>
+
+      <div className="absolute top-[2687px] left-[478px] w-[959px] h-[65px] flex justify-between">
+      <Image src={sh1} alt="sh1" className="w-[65px] h-[65px]"/>
+      <Image src={sh2} alt="sh2" className="w-[65px] h-[65px]"/>
+      <Image src={sh3} alt="sh3" className="w-[65px] h-[65px]"/>
+      <Image src={sh4} alt="sh4" className="w-[65px] h-[65px]"/>
       </div>
       {/* shopex end */}
 

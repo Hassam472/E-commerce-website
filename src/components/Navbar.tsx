@@ -27,7 +27,9 @@ function Navbar() {
             <Link href="/pages/blog">
               <li>Blog</li>
             </Link>
-            <li>Shop</li>
+            <Link href="/pages/about">
+              <li>About</li>
+            </Link>
             <li>Contact</li>
           </ul>
         </div>
