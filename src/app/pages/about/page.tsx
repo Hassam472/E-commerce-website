@@ -6,6 +6,9 @@ import sh1 from "@/images/shopex1.png";
 import sh2 from "@/images/shopex2.png";
 import sh3 from "@/images/shopex3.png";
 import sh4 from "@/images/shopex4.png";
+import cl1 from "@/images/client1.jpeg";
+import cl2 from "@/images/client2.jpeg";
+import cl3 from "@/images/client3.jpeg";
 
 function page() {
   return (
@@ -65,9 +68,11 @@ function page() {
         quis bibendum quam.
       </p>
 
-      <button className="absolute top-[830px] left-[975px] rounded-sm font-lato
-      text-[18px] text-[#FFFFFF] bg-[#FB2E86] font-semibold w-[145px] h-[44px]">
-      Contact us
+      <button
+        className="absolute top-[830px] left-[975px] rounded-sm font-lato
+      text-[18px] text-[#FFFFFF] bg-[#FB2E86] font-semibold w-[145px] h-[44px]"
+      >
+        Contact us
       </button>
 
       <h3
@@ -77,14 +82,120 @@ function page() {
         Our Features
       </h3>
 
+      <div
+        className="absolute top-[1173px] left-[375px] w-[1218px] h-[320px] 
+      flex justify-between"
+      >
+        <div
+          className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
+        text-center pt-40"
+        >
+          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+            Free Delivery
+          </p>
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
 
-      <div className="absolute top-[2687px] left-[478px] w-[959px] h-[65px] flex justify-between">
-      <Image src={sh1} alt="sh1" className="w-[65px] h-[65px]"/>
-      <Image src={sh2} alt="sh2" className="w-[65px] h-[65px]"/>
-      <Image src={sh3} alt="sh3" className="w-[65px] h-[65px]"/>
-      <Image src={sh4} alt="sh4" className="w-[65px] h-[65px]"/>
+        <div
+          className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
+        text-center pt-40 border-b-2 border-[#FF9100]"
+        >
+          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+            100% Cash Back
+          </p>
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+
+        <div
+          className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
+        text-center pt-40
+        "
+        >
+          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+            Quality Product
+          </p>
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
+
+        <div
+          className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
+        text-center pt-40"
+        >
+          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+            24/7 Support
+          </p>
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
+            gravida.
+          </p>
+        </div>
       </div>
 
+      <div
+        className="absolute top-[1235px] left-[478px] w-[1002px] h-[65px] 
+      flex justify-between"
+      >
+        <Image src={sh1} alt="sh1" className="w-[65px] h-[65px]" />
+        <Image src={sh2} alt="sh2" className="w-[65px] h-[65px]" />
+        <Image src={sh3} alt="sh3" className="w-[65px] h-[65px]" />
+        <Image src={sh4} alt="sh4" className="w-[65px] h-[65px]" />
+      </div>
+
+      <div
+        className="absolute top-[1626px] w-[1920px] h-[503px] 
+      bg-[#FBFBFF] font-lato text-center content-center text-[#8A8FB9]"
+      >
+        <p className="text-[#151875] text-[22px] mt-[220px]">Selina Gomez</p>
+        <p className="text-[10px]">Ceo At Webecy Digital</p>
+        <p className="w-[689px] ml-[616px] mt-[30px] text-[16px]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non duis
+          ultrices quam vel dui sollicitudin aliquet id arcu. Nam vitae a enim
+          nunc, sed sapien egestas ac nam. Tristique ultrices dolor aliquam
+          lacus volutpat praesent.
+        </p>
+        <p className="text-xl mt-[12px]">
+            <i className="fa-solid fa-minus text-[#FF75B0]"></i>
+            <i className="fa-solid fa-minus text-[#FB2E86]"></i>
+            <i className="fa-solid fa-minus text-[#FF75B0]"></i>
+          </p>
+      </div>
+
+      <Image
+          src={cl1}
+          alt="cl1"
+          className="w-[55px] h-[55px] rounded-sm 
+        border-[1px] border-green-400 absolute top-[1810px] left-[860px]"
+        />
+        <Image
+          src={cl2}
+          alt="cl2"
+          className="w-[55px] h-[59px] rounded-sm 
+        border-[1px] border-green-400 absolute top-[1800px] left-[925px]"
+        />
+        <Image
+          src={cl3}
+          alt="cl3"
+          className="w-[55px] h-[55px] rounded-sm 
+        border-[1px] border-green-400 absolute top-[1810px] left-[990px]"
+        />
+
+      
+
+      <h3
+        className="absolute top-[1697px] left-[809px] font-Jose
+      text-[42px] text-[#000000] font-bold"
+      >
+        Our Client Say!
+      </h3>
 
       <footer className="absolute top-[2434px]">
         <Footer />
