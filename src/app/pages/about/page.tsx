@@ -9,6 +9,7 @@ import sh4 from "@/images/shopex4.png";
 import cl1 from "@/images/client1.jpeg";
 import cl2 from "@/images/client2.jpeg";
 import cl3 from "@/images/client3.jpeg";
+import Link from "next/link";
 
 function page() {
   return (
@@ -68,12 +69,14 @@ function page() {
         quis bibendum quam.
       </p>
 
+      <Link href="/pages/contact">
       <button
         className="absolute top-[830px] left-[975px] rounded-sm font-lato
       text-[18px] text-[#FFFFFF] bg-[#FB2E86] font-semibold w-[145px] h-[44px]"
       >
         Contact us
       </button>
+      </Link>
 
       <h3
         className="absolute top-[1080px] left-[827px] font-Jose

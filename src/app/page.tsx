@@ -39,15 +39,22 @@ function page() {
   return (
     <>
     <main>
-      <div className="relative max-w-[1920px] h-[764px] bg-[#F2F0FF]">
-        <Image src={lamp} alt="lamp" className="h-[387px] w-[387px]" />
+      <div className="relative max-w-[1920px] h-[764px] bg-[#F2F0FF]
+      
+      max-sm:w-[639px]">
+        <Image src={lamp} alt="lamp" className="h-[387px] w-[387px]
+        
+        max-sm:w-[187px] max-sm:h-[187px]" />
 
-        <div className="w-[640px] h-[248px] space-y-2 absolute top-[170px] left-[300px]">
+        <div className="w-[640px] h-[248px] space-y-2 absolute top-[170px] left-[300px]
+        
+        max-sm:left-[150px] max-sm:w-[420px]">
           <h1 className="font-lato font-bold text-[16px] text-[#FB2E86]">
             Best Furniture For Your Castle....
           </h1>
 
-          <h1 className="font-Jose text-[53px] font-bold text-[#000000]">
+          <h1 className="font-Jose text-[53px] font-bold text-[#000000]
+          max-sm:text-[35px]">
             New Furniture Collection Trends in 2024
           </h1>
 
@@ -60,7 +67,9 @@ function page() {
         <Image
           src={sofa}
           alt="sofa"
-          className="h-[629px] w-[629px] absolute top-[90px] z-10 left-[1051px]"
+          className="h-[629px] w-[629px] absolute top-[90px] z-10 left-[1051px]
+          
+          max-sm:h-[309px] max-sm:w-[309px] max-sm:left-[150px] max-sm:top-[500px]"
         />
 
         <div
@@ -74,7 +83,8 @@ function page() {
         <div
           className="h-[138px] absolute top-[60px] left-[1598px] rounded-full 
       w-[136px] bg-[#00C1FE] text-center content-center text-[35px] 
-      text-[#FFFFFF] font-Jose"
+      text-[#FFFFFF] font-Jose
+      "
         >
           50% off
         </div>
@@ -233,25 +243,25 @@ function page() {
 
       <p
         className="absolute top-[1655px] left-[697px] text-[#FB2E86] 
-      underline text-[18px] font-lato cursor-pointer"
+      underline text-[18px] font-lato cursor-pointer hover:text-[#FB2E86]"
       >
         New Arrival
       </p>
       <p
         className="absolute top-[1655px] left-[848px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer"
+      text-[18px] font-lato cursor-pointer hover:text-[#FB2E86]"
       >
         Best Seller
       </p>
       <p
         className="absolute top-[1655px] left-[992px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer"
+      text-[18px] font-lato cursor-pointer hover:text-[#FB2E86]"
       >
         Featured
       </p>
       <p
         className="absolute top-[1655px] left-[1122px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer"
+      text-[18px] font-lato cursor-pointer hover:text-[#FB2E86]"
       >
         Special Offer
       </p>
@@ -644,13 +654,13 @@ function page() {
       </p>
       <p
         className="absolute top-[4733px] left-[905px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer z-10"
+      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]"
       >
         Plastic Chair
       </p>
       <p
         className="absolute top-[4733px] left-[1029px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer z-10"
+      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]"
       >
         Sofa Colletion
       </p>
@@ -865,13 +875,13 @@ function page() {
           More off this less hello samlande lied much over tightly circa horse
           taped mightly
         </p>
-        <p
+        <Link href="/pages/blog"><p
           className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
           text-[16px]
           text-[#151875] hover:text-[#FB2E86]"
         >
           Read More
-        </p>
+        </p></Link>
       </div>
 
       {/* lb2 */}
@@ -917,13 +927,13 @@ function page() {
           More off this less hello samlande lied much over tightly circa horse
           taped mightly
         </p>
-        <p
+        <Link href="/pages/blog"><p
           className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
           text-[16px]
           text-[#FB2E86]"
         >
           Read More
-        </p>
+        </p></Link>
       </div>
 
       {/* lb3 */}
@@ -968,13 +978,13 @@ function page() {
           More off this less hello samlande lied much over tightly circa horse
           taped mightly
         </p>
-        <p
+        <Link href="/pages/blog"><p
           className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
           text-[16px]
           text-[#151875] hover:text-[#FB2E86]"
         >
           Read More
-        </p>
+        </p></Link>
       </div>
       </main>
 

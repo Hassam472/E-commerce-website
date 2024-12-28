@@ -1,6 +1,7 @@
 import React from "react";
 import icon from "@/images/icon.jpg";
 import Image from "next/image";
+import Link from "next/link";
 import pr1 from "@/images/pr1.jpeg";
 import pr2 from "@/images/pr2.jpeg";
 import pr3 from "@/images/pr3.jpeg";
@@ -89,6 +90,7 @@ function page() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus
         porttitor purus, et volutpat sit.
       </p>
+      <Link href="/pages/cart">
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
           top-[829px] left-[1046px]"
@@ -96,6 +98,7 @@ function page() {
         Add To cart
         <i className="fa-regular fa-heart pl-7 text-[18px]"></i>
       </p>
+      </Link>
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
           top-[875px] left-[975px]"
