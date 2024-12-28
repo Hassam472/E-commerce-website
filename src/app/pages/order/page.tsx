@@ -51,7 +51,7 @@ function page() {
         your order is completed.
       </p>
 
-      <Link href="/pages/demo">
+      <Link href="/pages/shopList">
         <button
           className="absolute top-[859px] left-[869px] font-lato
       text-[16px] text-[#FFFFFF] text-center w-[208px] h-[59px] 

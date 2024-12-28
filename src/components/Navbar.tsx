@@ -8,30 +8,31 @@ function Navbar() {
     items-center"
     >
       <div
-        className="w-[1177px] h-[40px] text-[#0D0E43] flex relative font-Jose justify-between 
-    items-center"
+        className="w-[1177px] h-[40px] text-[#0D0E43] flex relative font-Jose 
+        justify-between items-center"
       >
-        <div className="text-[34px] font-bold cursor-pointer">Hekto</div>
-
+       <Link href="/">
+       <div className="text-[34px] font-bold cursor-pointer">Hekto</div>
+       </Link>
         <div>
-          <ul className="flex space-x-7 font-lato text-[16px] cursor-pointer">
+          <ul className="flex space-x-7 font-lato text-[16px]">
             <Link href="/">
-              <li>Home</li>
+              <li className="hover:text-[#FB2E86]">Home</li>
             </Link>
             <Link href="/pages/shopGrid">
-              <li>Pages</li>
+              <li className="hover:text-[#FB2E86]">Pages</li>
             </Link>
             <Link href="/product">
-              <li>Product</li>
+              <li className="hover:text-[#FB2E86]">Product</li>
             </Link>
             <Link href="/pages/blog">
-              <li>Blog</li>
+              <li className="hover:text-[#FB2E86]">Blog</li>
             </Link>
             <Link href="/pages/about">
-              <li>About</li>
+              <li className="hover:text-[#FB2E86]">About</li>
             </Link>
             <Link href="/pages/contact">
-              <li>Contact</li>
+              <li className="hover:text-[#FB2E86]">Contact</li>
             </Link>
           </ul>
         </div>

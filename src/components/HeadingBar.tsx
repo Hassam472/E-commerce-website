@@ -23,7 +23,7 @@ function HeadingBar() {
 
       <div className='relative'>
         <ul className='flex space-x-7'>
-          <li>English <i className="fa-solid fa-v text-[8px]"></i></li>
+        <Link href="/pages/404"><li>English <i className="fa-solid fa-v text-[8px]"></i></li></Link>
           <li>USD <i className="fa-solid fa-v text-[8px]"></i></li>
           <Link href="/pages/login"><li>Login <i className="fa-regular fa-user text-[12px]"></i></li></Link>
           <li>Wishlist <i className="fa-regular fa-heart text-[12px]"></i></li>

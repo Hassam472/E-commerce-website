@@ -1,14 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 import icon from '@/images/icon.jpg';
+import Link from 'next/link';
 
 function Footer() {
   return (
     <>
     <div className='w-[1920px] h-[479px]
      bg-[#EEEFFB]'>
+    <Link href="/pages/demo">
     <h2 className='absolute top-[95px] left-[310px] text-[38px] text-[#000000]
     font-Jose font-bold cursor-pointer'>Hekto</h2>
+    </Link>
     <input type="text" placeholder='Enter Email Address' className='font-lato
     absolute top-[164px] left-[309px] w-[377px] h-[44px] rounded-[3px] bg-[#FFFFFF]
     text-[16px] text-[#8A8FB9] pl-3' />

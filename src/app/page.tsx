@@ -32,6 +32,7 @@ import sh1 from "@/images/shopex1.png";
 import sh2 from "@/images/shopex2.png";
 import sh3 from "@/images/shopex3.png";
 import sh4 from "@/images/shopex4.png";
+import Link from "next/link";
 
 
 function page() {
@@ -256,7 +257,7 @@ function page() {
       </p>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[1739px] left-[378px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={lp1}
             alt="lp1"
@@ -276,7 +277,7 @@ function page() {
       </div>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[1739px] left-[775px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={lp2}
             alt="lp2"
@@ -296,7 +297,7 @@ function page() {
       </div>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[1739px] left-[1182px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={chair1}
             alt="chair1"
@@ -316,7 +317,7 @@ function page() {
       </div>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[2165px] left-[378px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={lp3}
             alt="lp3"
@@ -336,7 +337,7 @@ function page() {
       </div>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[2165px] left-[775px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={lp4}
             alt="lp4"
@@ -356,7 +357,7 @@ function page() {
       </div>
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[2165px] left-[1172px]">
-        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px]">
+        <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
           <Image
             src={lp5}
             alt="lp5"
@@ -454,12 +455,12 @@ function page() {
           <i className="fa-solid fa-circle absolute text-[11px] text-[#F52B70] top-[209px] left-[543px]"></i>
           <i className="fa-solid fa-circle absolute text-[11px] text-[#2B2BF5] top-[246px] left-[543px]"></i>
           <i className="fa-solid fa-circle absolute text-[11px] text-[#2BF5CC] top-[312px] left-[543px]"></i>
-          <button
+          <Link href="/pages/cart"><button
             className="bg-[#FB2E86] absolute left-[543px] top-[365px] text-[17px] 
           text-[#FFFFFF] font-Jose w-[157px] h-[45px] rounded-sm"
           >
             Add To Cart
-          </button>
+          </button></Link>
           <p className="font-Jose text-[#151875] text-[14px] absolute top-[371px] left-[719px] font-bold">
             B&B Italian Sofa
           </p>
@@ -637,19 +638,19 @@ function page() {
 
       <p
         className="absolute top-[4733px] left-[780px] text-[#FB2E86] 
-      underline text-[18px] font-lato cursor-pointer"
+      underline text-[18px] font-lato cursor-pointer z-10"
       >
         Wood Chair
       </p>
       <p
         className="absolute top-[4733px] left-[905px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer"
+      text-[18px] font-lato cursor-pointer z-10"
       >
         Plastic Chair
       </p>
       <p
         className="absolute top-[4733px] left-[1029px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer"
+      text-[18px] font-lato cursor-pointer z-10"
       >
         Sofa Colletion
       </p>
@@ -731,7 +732,7 @@ function page() {
       {/* 2 */}
 
       <div className="absolute top-[5500px] left-[672px] w-[269px] h-[345px]">
-        <div className="h-[275px] w-[275px] relative rounded-full">
+        <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
           <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
             <Image
               src={lp3}
@@ -750,7 +751,7 @@ function page() {
       {/* 3 */}
 
       <div className="absolute top-[5500px] left-[980px] w-[269px] h-[345px]">
-        <div className="h-[275px] w-[275px] relative rounded-full">
+        <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
           <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
             <Image
               src={lp6}
@@ -769,7 +770,7 @@ function page() {
       {/* 4 */}
 
       <div className="absolute top-[5500px] left-[1288px] w-[269px] h-[345px]">
-        <div className="h-[275px] w-[275px] relative rounded-full">
+        <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
           <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
             <Image
               src={chair5}
@@ -853,7 +854,7 @@ function page() {
 
         <h2
           className="absolute top-[319px] left-[19px] text-[18px] 
-          text-[#151875] font-Jose font-bold "
+          text-[#151875] font-Jose font-bold hover:text-[#FB2E86]"
         >
           Top esssential Trends in 2024
         </h2>
@@ -867,7 +868,7 @@ function page() {
         <p
           className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
           text-[16px]
-          text-[#151875]"
+          text-[#151875] hover:text-[#FB2E86]"
         >
           Read More
         </p>
@@ -956,7 +957,7 @@ function page() {
 
         <h2
           className="absolute top-[319px] left-[19px] text-[18px] 
-          text-[#151875] font-Jose font-bold "
+          text-[#151875] font-Jose font-bold hover:text-[#FB2E86]"
         >
           Top esssential Trends in 2024
         </h2>
@@ -970,7 +971,7 @@ function page() {
         <p
           className="absolute w-[297px] top-[428px] underline left-[19px] font-lato 
           text-[16px]
-          text-[#151875]"
+          text-[#151875] hover:text-[#FB2E86]"
         >
           Read More
         </p>
