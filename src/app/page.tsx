@@ -41,24 +41,27 @@ function page() {
     <main>
       <div className="relative max-w-[1920px] h-[764px] bg-[#F2F0FF]
       
-      max-sm:w-[639px]">
+      max-sm:w-[359px]">
         <Image src={lamp} alt="lamp" className="h-[387px] w-[387px]
         
-        max-sm:w-[187px] max-sm:h-[187px]" />
+        max-sm:w-[127px] max-sm:h-[127px]" />
 
         <div className="w-[640px] h-[248px] space-y-2 absolute top-[170px] left-[300px]
         
-        max-sm:left-[150px] max-sm:w-[420px]">
-          <h1 className="font-lato font-bold text-[16px] text-[#FB2E86]">
+        max-sm:left-[10px] max-sm:top-[120px] max-sm:w-[340px] max-sm:text-center">
+          <h1 className="font-lato font-bold text-[16px] text-[#FB2E86]
+          
+          max-sm:text-[14px]">
             Best Furniture For Your Castle....
           </h1>
 
           <h1 className="font-Jose text-[53px] font-bold text-[#000000]
-          max-sm:text-[35px]">
+          max-sm:text-[28px]">
             New Furniture Collection Trends in 2024
           </h1>
 
-          <p className="font-lato font-bold text-[16px] text-[#8A8FB9]">
+          <p className="font-lato font-bold text-[16px] text-[#8A8FB9]
+          max-sm:text-[14px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in
             est adipiscing in phasellus non in justo.
           </p>
@@ -69,7 +72,7 @@ function page() {
           alt="sofa"
           className="h-[629px] w-[629px] absolute top-[90px] z-10 left-[1051px]
           
-          max-sm:h-[309px] max-sm:w-[309px] max-sm:left-[150px] max-sm:top-[500px]"
+          max-sm:h-[309px] max-sm:w-[309px] max-sm:left-[30px] max-sm:top-[400px]"
         />
 
         <div
@@ -91,7 +94,10 @@ function page() {
 
         <button
           className="font-Jose absolute top-[440px] left-[300px] 
-      text-[17px] bg-[#FB2E86] text-[#FFFFFF] h-[50px] w-[163px] rounded-[2px]"
+      text-[17px] bg-[#FB2E86] text-[#FFFFFF] h-[50px] w-[163px] rounded-[2px]
+      
+      max-sm:top-[300px] max-sm:left-[120px] max-sm:text-[14px] max-sm:w-[110px] 
+      max-sm:h-[40px]"
         >
           Shop Now
         </button>
