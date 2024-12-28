@@ -41,7 +41,7 @@ function page() {
     <main>
       <div className="relative max-w-[1920px] h-[764px] bg-[#F2F0FF]
       
-      max-sm:w-[359px]">
+      max-sm:w-[360px]">
         <Image src={lamp} alt="lamp" className="h-[387px] w-[387px]
         
         max-sm:w-[127px] max-sm:h-[127px]" />
@@ -77,17 +77,22 @@ function page() {
 
         <div
           className="h-[689px] absolute top-[50px] left-[1096px] 
-      rounded-full w-[706px] bg-[#ECD2FA59]"
+      rounded-full w-[706px] bg-[#ECD2FA59]
+      
+      max-sm:w-[324px] max-sm:h-[290px] max-sm:top-[400px] max-sm:left-[30px]"
         ></div>
         <div
           className="h-[689px] absolute top-[20px] left-[1041px] 
-      rounded-full w-[706px] bg-[#ECD2FA59]"
+      rounded-full w-[706px] bg-[#ECD2FA59]
+      
+      max-sm:w-[324px] max-sm:h-[290px] max-sm:top-[370px] max-sm:left-[10px]"
         ></div>
         <div
           className="h-[138px] absolute top-[60px] left-[1598px] rounded-full 
       w-[136px] bg-[#00C1FE] text-center content-center text-[35px] 
       text-[#FFFFFF] font-Jose
-      "
+      max-sm:w-[70px] max-sm:h-[68px] max-sm:top-[380px] max-sm:left-[260px] 
+      max-sm:text-[22px]"
         >
           50% off
         </div>
@@ -105,16 +110,22 @@ function page() {
 
       <h1
         className="font-Jose text-[42px] text-[#1A0B5B] mt-20 
-   ml-[777px] font-bold"
+   ml-[777px] font-bold
+   
+   max-sm:ml-[50px] max-sm:text-[28px]"
       >
         Featured Products
       </h1>
 
-      <div className="flex relative max-w-[1920px]">
+      <div className="flex relative max-w-[1920px]
+      
+      max-sm:w-[360px]">
         {/* chair1 */}
         <div
           className="w-[270px] h-[361px] absolute left-[376px] 
-  text-center shadow-md cursor-pointer hover:bg-[#2F1AC4] hover:text-[#FFFFFF]"
+  text-center shadow-md cursor-pointer hover:bg-[#2F1AC4] hover:text-[#FFFFFF]
+  
+  max-sm:left-[50px] max-sm:w-[250px]"
         >
           <div className="h-[236px] relative bg-[#F6F7FB]">
             <Image
@@ -145,7 +156,8 @@ function page() {
         {/* chair2 */}
         <div
           className="w-[270px] h-[361px] cursor-pointer absolute left-[675px] 
-  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]"
+  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]
+  max-sm:left-[50px] max-sm:w-[250px] max-sm:top-[400px]"
         >
           <div className="h-[236px] relative bg-[#F6F7FB]">
             <Image
@@ -176,7 +188,8 @@ function page() {
         {/* chair3 */}
         <div
           className="w-[270px] h-[361px] cursor-pointer absolute left-[975px] 
-  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]"
+  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]
+  max-sm:left-[50px] max-sm:w-[250px] max-sm:top-[800px]"
         >
           <div className="h-[236px] relative bg-[#F6F7FB]">
             <Image
@@ -206,7 +219,8 @@ function page() {
         {/* chair4 */}
         <div
           className="w-[270px] h-[361px] cursor-pointer absolute left-[1274px] 
-  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]"
+  text-center shadow-md hover:bg-[#2F1AC4] hover:text-[#FFFFFF]
+  max-sm:left-[50px] max-sm:w-[250px] max-sm:top-[1200px]"
         >
           <div className="h-[236px] relative bg-[#F6F7FB]">
             <Image
@@ -236,17 +250,21 @@ function page() {
       </div>
       {/* Featured product end */}
 
-      <p className="absolute top-[1519px] left-[915px] space-x-1">
+      <p className="absolute top-[1519px] left-[915px] space-x-1
+      max-sm:left-[150px] max-sm:top-[2600px]">
         <i className="fa-solid fa-minus text-[#FB2E86] text-[20px]"></i>
         <i className="fa-solid fa-minus text-[#FEBAD7] text-[16px]"></i>
         <i className="fa-solid fa-minus text-[#FEBAD7] text-[16px]"></i>
         <i className="fa-solid fa-minus text-[#FEBAD7] text-[16px]"></i>
       </p>
 
-      <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[1594px] left-[791px]">
+      <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[1594px] 
+      left-[791px]
+      max-sm:left-[70px] max-sm:top-[2700px] max-sm:text-[28px]">
         Latest Products
       </h1>
 
+      {/* <div className="max-sm:top-[2750px] max-sm:left-[110px] max-sm:w-[227px]"> */}
       <p
         className="absolute top-[1655px] left-[697px] text-[#FB2E86] 
       underline text-[18px] font-lato cursor-pointer hover:text-[#FB2E86]"
@@ -271,6 +289,7 @@ function page() {
       >
         Special Offer
       </p>
+      {/* </div> */}
 
       <div className="w-[365px] h-[306px] font-Jose absolute top-[1739px] left-[378px]">
         <div className="bg-[#F7F7F7] relative h-[270px] w-[360px] hover:bg-[#FFFFFF] cursor-pointer">
