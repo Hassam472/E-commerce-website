@@ -766,38 +766,49 @@ function page() {
         max-sm:top-[8800px] max-sm:w-[270px] max-sm:left-[30px]"></div>
 
         <p className="absolute top-[4296px] left-[400px] font-Jose text-[26px]
-         text-[#151875] font-semibold">
+         text-[#151875] font-semibold
+         max-sm:text-[20px] max-sm:top-[8850px] max-sm:left-[40px]">
           23% off in all products
         </p>
-        
+
         <p className="cursor-pointer absolute top-[4333px] underline left-[400px] 
-        font-lato text-[16px] text-[#FB2E86] font-semibold">
+        font-lato text-[16px] text-[#FB2E86] font-semibold
+        max-sm:text-[14px] max-sm:top-[8880px] max-sm:left-[40px]">
           Shop Now
         </p>
 
         <Image
           src={clock}
           alt="clock"
-          className="absolute w-[213px] h-[207px] top-[4323px] left-[576px]"
+          className="absolute w-[213px] h-[207px] top-[4323px] left-[576px]
+          max-sm:left-[90px] max-sm:top-[8870px]"
         />
 
         <div className="absolute bg-[#EEEFFB] shadow top-[4262px] left-[824px] 
         w-[420px] h-[270px]
         max-sm:top-[9100px] max-sm:w-[270px] max-sm:left-[30px]"></div>
-        <p className="absolute top-[4296px] left-[849px] font-Jose text-[26px] text-[#151875] font-semibold">
+
+        <p className="absolute top-[4296px] left-[849px] font-Jose text-[26px]
+         text-[#151875] font-semibold
+         max-sm:text-[20px] max-sm:top-[9150px] max-sm:left-[40px]">
           23% off in all products
         </p>
-        <p className="cursor-pointer absolute top-[4333px] underline left-[849px] font-lato text-[16px] text-[#FB2E86] font-semibold">
+
+        <p className="cursor-pointer absolute top-[4333px] underline left-[849px] 
+        font-lato text-[16px] text-[#FB2E86] font-semibold
+        max-sm:text-[14px] max-sm:top-[9180px] max-sm:left-[40px]">
           View Collection
         </p>
 
         <Image
           src={draz}
           alt="draz"
-          className="absolute w-[312px] h-[173px] top-[4357px] left-[926px]"
+          className="absolute w-[312px] h-[173px] top-[4357px] left-[926px]
+          max-sm:left-[20px] max-sm:top-[9190px]"
         />
 
-        <div className="absolute w-[267px] h-[74px] top-[4267px] left-[1268px]">
+        <div className="absolute w-[267px] h-[74px] top-[4267px] left-[1268px]
+        max-sm:left-[30px] max-sm:top-[9400px]">
           <div className="w-[107px] h-[74px] bg-[#F5F6F8] relative">
             <Image
               src={mini1}
@@ -813,7 +824,8 @@ function page() {
           </p>
         </div>
 
-        <div className="absolute w-[267px] h-[74px] top-[4361px] left-[1268px]">
+        <div className="absolute w-[267px] h-[74px] top-[4361px] left-[1268px]
+        max-sm:left-[30px] max-sm:top-[9490px]">
           <div className="w-[107px] h-[74px] bg-[#F5F6F8] relative">
             <Image
               src={mini2}
@@ -829,7 +841,8 @@ function page() {
           </p>
         </div>
 
-        <div className="absolute w-[267px] h-[74px] top-[4455px] left-[1268px]">
+        <div className="absolute w-[267px] h-[74px] top-[4455px] left-[1268px]
+        max-sm:left-[30px] max-sm:top-[9580px]">
           <div className="w-[107px] h-[74px] bg-[#F5F6F8] relative">
             <Image
               src={mini3}
@@ -846,80 +859,115 @@ function page() {
         </div>
         {/* trending products end */}
 
-        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[4658px] left-[822px]">
+        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute 
+        top-[4658px] left-[822px]
+        max-sm:left-[80px] max-sm:top-[9700px] max-sm:text-[28px]">
           Discount Item
         </h1>
 
         <p
           className="absolute top-[4733px] left-[780px] text-[#FB2E86] 
-      underline text-[18px] font-lato cursor-pointer z-10"
+      underline text-[18px] font-lato cursor-pointer z-10
+      max-sm:top-[9745px] max-sm:left-[60px] max-sm:text-[12px]"
         >
           Wood Chair
         </p>
         <p
           className="absolute top-[4733px] left-[905px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]"
+      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]
+      max-sm:top-[9745px] max-sm:left-[140px] max-sm:text-[12px]"
         >
           Plastic Chair
         </p>
         <p
           className="absolute top-[4733px] left-[1029px] text-[#151875] 
-      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]"
+      text-[18px] font-lato cursor-pointer z-10 hover:text-[#FB2E86]
+      max-sm:top-[9745px] max-sm:left-[220px] max-sm:text-[12px]"
         >
           Sofa Colletion
         </p>
+        {/* responsive */}
 
-        <div className="absolute w-[1214px] h-[597px] top-[4726px] left-[389px]">
-          <h1 className="absolute top-[140px] left-[1px] text-[#151875] text-[35px] font-Jose font-bold">
+        <div className="absolute w-[1214px] h-[597px] top-[4726px] left-[389px]
+        max-sm:w-[360px] max-sm:left-[0px] max-sm:top-[9800px]">
+
+          <h1 className="absolute top-[140px] left-[1px] text-[#151875] text-[35px] 
+          font-Jose font-bold
+          max-sm:text-[24px] max-sm:top-[60px] max-sm:text-center">
             20% Discount Of All Products
           </h1>
-          <p className="absolute top-[202px] left-[1px] text-[#FB2E86] text-[21px] font-Jose">
+
+          <p className="absolute top-[202px] left-[1px] text-[#FB2E86] 
+          text-[21px] font-Jose
+          max-sm:text-[16px] max-sm:top-[440px] max-sm:left-[10px]">
             Eams Sofa Compact
           </p>
+
           <p
             className="absolute top-[250px] left-[1px] text-[#B7BACB] text-[17px] 
-          font-lato w-[523px] leading-[30px]"
+          font-lato w-[523px] leading-[30px]
+          max-sm:text-[14px] max-sm:top-[470px] max-sm:left-[10px] max-sm:w-[323px]
+          max-sm:leading-5"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget
             feugiat habitasse nec, bibendum condimentum.
           </p>
-          <i className="fa-solid fa-check absolute top-[331px] left-[1px] text-[#7569B2]"></i>
-          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[327px] left-[23px]">
+
+          <i className="fa-solid fa-check absolute top-[331px] left-[1px] text-[#7569B2]
+          max-sm:top-[540px] max-sm:left-[10px]"></i>
+          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[327px] left-[23px]
+          max-sm:text-[14px] max-sm:left-[40px] max-sm:top-[540px]">
             Material expose like metals
           </p>
-          <i className="fa-solid fa-check absolute top-[370px] left-[1px] text-[#7569B2]"></i>
-          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[367px] left-[23px]">
+          <i className="fa-solid fa-check absolute top-[370px] left-[1px] text-[#7569B2]
+          max-sm:top-[570px] max-sm:left-[10px]"></i>
+          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[367px] left-[23px]
+          max-sm:text-[14px] max-sm:left-[40px] max-sm:top-[570px]">
             Simple neutral colours
           </p>
-          <i className="fa-solid fa-check absolute top-[331px] left-[275px] text-[#7569B2]"></i>
-          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[327px] left-[295px]">
+          <i className="fa-solid fa-check absolute top-[331px] left-[275px] text-[#7569B2]
+          max-sm:top-[600px] max-sm:left-[10px]"></i>
+          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[327px] left-[295px]
+          max-sm:text-[14px] max-sm:left-[40px] max-sm:top-[600px]">
             Clear lines and geomatric figures
           </p>
-          <i className="fa-solid fa-check absolute top-[370px] left-[275px] text-[#7569B2]"></i>
-          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[367px] left-[295px]">
+          <i className="fa-solid fa-check absolute top-[370px] left-[275px] text-[#7569B2]
+          max-sm:top-[630px] max-sm:left-[10px]"></i>
+          <p className="absolute font-lato text-[#B8B8DC] text-[16px] top-[367px] left-[295px]
+          max-sm:text-[14px] max-sm:left-[40px] max-sm:top-[630px]">
             Material expose like metals
           </p>
           <button
             className="absolute top-[434px] left-[1px] w-[200px] h-[57px] bg-[#FB2E86] 
-        text-[17px] font-Jose text-[#FFFFFF] rounded-[2px]"
+        text-[17px] font-Jose text-[#FFFFFF] rounded-[2px]
+        max-sm:top-[670px] max-sm:left-[10px] max-sm:text-[14px] max-sm:w-[130px] 
+      max-sm:h-[40px]"
           >
             Shop Now
           </button>
 
-          <div className="absolute left-[615px] top-[100px] w-[481px] h-[450px] rounded-full bg-[#FFF6FB]"></div>
+          <div className="absolute left-[615px] top-[100px] w-[481px] h-[450px] 
+          rounded-full bg-[#FFF6FB]
+          max-sm:w-[320px] max-sm:h-[290px] max-sm:left-[10px] max-sm:top-[130px]"></div>
           <Image
             src={sofa2}
             alt="sofa2"
-            className="w-[699px] h-[597px] absolute left-[515px]"
+            className="w-[699px] h-[597px] absolute left-[515px]
+            max-sm:w-[399px] max-sm:h-[297px] max-sm:left-[0px] max-sm:top-[140px]"
           />
         </div>
         {/* discount item end */}
 
-        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[5402px] left-[810px]">
+{/* responsive */}
+
+        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute 
+        top-[5402px] left-[810px]
+        max-sm:left-[70px] max-sm:top-[10600px] max-sm:text-[28px]">
           Top Catogaries
         </h1>
         {/* 1 */}
-        <div className="absolute top-[5500px] left-[364px] w-[269px] h-[345px]">
+        <div className="absolute top-[5500px] left-[364px] w-[269px] h-[345px]
+        max-sm:top-[10680px] max-sm:left-[30px]">
           <div className="h-[275px] w-[275px] relative rounded-full bg-[#9877E7]">
             <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
               <Image
@@ -934,10 +982,14 @@ function page() {
                 View Shop
               </button>
             </div>
-            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px] text-[#151875]">
+            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px]
+             text-[#151875]
+             max-sm:text-[16px] max-sm:left-[79px]">
               Mini LCW Chair
             </p>
-            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] text-[#151875]">
+            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px]
+             text-[#151875]
+             max-sm:text-[14px] max-sm:left-[115px]">
               $56.00
             </p>
           </div>
@@ -945,7 +997,8 @@ function page() {
 
         {/* 2 */}
 
-        <div className="absolute top-[5500px] left-[672px] w-[269px] h-[345px]">
+        <div className="absolute top-[5500px] left-[672px] w-[269px] h-[345px]
+        max-sm:top-[11075px] max-sm:left-[30px]">
           <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
             <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
               <Image
@@ -954,17 +1007,22 @@ function page() {
                 className="absolute top-[60px] left-[51px] w-[158px] h-[157px]"
               />
             </div>
-            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px] text-[#151875]">
+            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px]
+             text-[#151875]
+             max-sm:text-[16px] max-sm:left-[79px]">
               Mini LCW Chair
             </p>
-            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] text-[#151875]">
+            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] 
+            text-[#151875]
+            max-sm:text-[14px] max-sm:left-[115px]">
               $56.00
             </p>
           </div>
         </div>
         {/* 3 */}
 
-        <div className="absolute top-[5500px] left-[980px] w-[269px] h-[345px]">
+        <div className="absolute top-[5500px] left-[980px] w-[269px] h-[345px]
+        max-sm:top-[11470px] max-sm:left-[30px]">
           <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
             <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
               <Image
@@ -973,17 +1031,22 @@ function page() {
                 className="absolute top-[71px] left-[60px] w-[149px] h-[149px]"
               />
             </div>
-            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px] text-[#151875]">
+            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px]
+             text-[#151875]
+             max-sm:text-[16px] max-sm:left-[79px]">
               Mini LCW Chair
             </p>
-            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] text-[#151875]">
+            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px]
+             text-[#151875]
+             max-sm:text-[14px] max-sm:left-[115px]">
               $56.00
             </p>
           </div>
         </div>
         {/* 4 */}
 
-        <div className="absolute top-[5500px] left-[1288px] w-[269px] h-[345px]">
+        <div className="absolute top-[5500px] left-[1288px] w-[269px] h-[345px]
+        max-sm:top-[11865px] max-sm:left-[30px]">
           <div className="h-[275px] w-[275px] relative rounded-full hover:bg-[#9877E7]">
             <div className="h-[269px] w-[269px] absolute right-0 top-[-3px] rounded-full bg-[#F6F7FB]">
               <Image
@@ -992,27 +1055,33 @@ function page() {
                 className="absolute top-[46px] left-[41px] w-[178px] h-[178px]"
               />
             </div>
-            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px] text-[#151875]">
+            <p className="absolute top-[296px] left-[69px] font-Jose text-[20px] 
+            text-[#151875]
+            max-sm:text-[16px] max-sm:left-[79px]">
               Mini LCW Chair
             </p>
-            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] text-[#151875]">
+            <p className="absolute top-[329px] left-[110px] font-Jose text-[16px] 
+            text-[#151875]
+            max-sm:text-[14px] max-sm:left-[115px]">
               $56.00
             </p>
           </div>
         </div>
 
-        <div className="absolute top-[5883px] space-x-4 left-[927px] w-[66px] h-[14px]">
+        <div className="absolute top-[5883px] space-x-4 left-[927px] w-[66px] h-[14px]
+        max-sm:top-[12240px] max-sm:left-[135px]">
           <i className="fa-solid fa-circle text-[11px] text-[#FB2E86]"></i>
           <i className="fa-regular fa-circle text-[11px] text-[#FB2E86]"></i>
           <i className="fa-regular fa-circle text-[11px] text-[#FB2E86]"></i>
         </div>
         {/* top Catogaries end */}
 
+{/* responsive */}
         <Image
           src={news}
           alt="news"
           className="absolute top-[6023px] max-w-[1920px] h-[462px]
-          max-sm:w-[360px] max-sm:top-[10000px]"
+          max-sm:w-[360px] max-sm:top-[12300px]"
         />
         <h1 className="absolute top-[6197px] text-center left-[673px] text-[#151875] text-[35px] font-Jose font-bold">
           Get Leatest Update By Subscribe
