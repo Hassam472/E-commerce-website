@@ -1081,16 +1081,21 @@ function page() {
           src={news}
           alt="news"
           className="absolute top-[6023px] max-w-[1920px] h-[462px]
-          max-sm:w-[360px] max-sm:top-[12300px]"
+          max-sm:w-[360px] max-sm:h-[362px] max-sm:top-[12300px]"
         />
-        <h1 className="absolute top-[6197px] text-center left-[673px] text-[#151875] text-[35px] font-Jose font-bold">
-          Get Leatest Update By Subscribe
-          <br />
+        <h1 className="absolute top-[6197px] text-center left-[673px] 
+        text-[#151875] text-[35px] font-Jose font-bold
+        max-sm:left-[0px] max-sm:text-[24px] max-sm:top-[12450px]">
+          Get Leatest Update By Subscribe 
+          <br className="max-sm:hidden" />
           0ur Newslater
         </h1>
         <button
           className="absolute top-[6333px] left-[873px] w-[173px] h-[49px] bg-[#FB2E86] 
-        text-[17px] font-Jose text-[#FFFFFF] rounded-[2px]"
+        text-[17px] font-Jose text-[#FFFFFF] rounded-[2px]
+        
+        max-sm:left-[120px] max-sm:top-[12540px]
+          max-sm:text-[14px] max-sm:w-[110px] max-sm:h-[40px]"
         >
           Shop Now
         </button>
@@ -1098,13 +1103,17 @@ function page() {
         <Image
           src={logo}
           alt="logo"
-          className="absolute top-[6581px] left-[508px] w-[904px] h-[93pxpx]"
+          className="absolute top-[6581px] left-[508px] w-[904px] h-[93px]
+          max-sm:top-[12700px] max-sm:left-[0px] max-sm:w-[360px]
+          max-sm:h-[43px]"
         />
 
         {/* newslater end */}
 
-        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[6770px] left-[833px]">
-          Leatest Blog
+        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute 
+        top-[6770px] left-[833px]
+        max-sm:left-[80px] max-sm:top-[12800px] max-sm:text-[28px]">
+          Latest Blog
         </h1>
 
         {/* lb1 */}
