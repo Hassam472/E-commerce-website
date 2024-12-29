@@ -601,56 +601,84 @@ function page() {
 
         <div
           className="w-[1920px] h-[579px] bg-[#F1F0FF] absolute top-[3081px] left-[-1px]
-      max-sm:w-[360px] max-sm:top-[6300px]"
+      max-sm:w-[360px] max-sm:h-[800px] max-sm:top-[6300px]"
         >
-          <div className="w-[1050px] h-[550px] relative left-[434px] top-[15px]">
-            <div className="absolute w-[481px] h-[449.62px] bg-[#F5E1FC] top-[21.38px] left-[-9px] rounded-full">
+          <div className="w-[1050px] h-[550px] relative left-[434px] top-[15px]
+          max-sm:w-[360px] max-sm:left-0">
+            <div className="absolute w-[481px] h-[449.62px] bg-[#F5E1FC] top-[21.38px] 
+            left-[-9px] rounded-full
+            max-sm:w-[324px] max-sm:h-[310px] max-sm:left-[10px]">
               <Image
                 src={sofa1}
                 alt="sofa1"
-                className="w-[509px] h-[550px] absolute left-[40px]"
+                className="w-[509px] h-[550px] absolute left-[40px]
+                max-sm:w-[309px] max-sm:h-[350px] max-sm:left-[20px]"
               />
             </div>
-            <h1 className="absolute top-[82px] left-[543px] text-[#151875] text-[35px] font-Jose font-bold">
+            <h1 className="absolute top-[82px] left-[543px] text-[#151875] text-[35px] 
+            font-Jose font-bold
+          max-sm:left-[20px] max-sm:right-[20px] max-sm:text-[24px] max-sm:top-[362px] max-sm:text-center">
               Unique Features Of latest & Trending Poducts
             </h1>
 
-            <p className="absolute top-[203px] left-[566px] font-lato text-[#ACABC3] font-medium">
+            <p className="absolute top-[203px] left-[566px] font-lato text-[#ACABC3] 
+            font-medium
+            max-sm:left-[40px] max-sm:right-[20px] max-sm:top-[460px]">
               All frames constructed with hardwood solids and laminates
             </p>
-            <p className="absolute top-[237px] left-[566px] font-lato text-[#ACABC3] font-medium">
+            <p className="absolute top-[237px] left-[566px] font-lato text-[#ACABC3] 
+            font-medium
+            max-sm:left-[40px] max-sm:right-[20px] max-sm:top-[520px]">
               Reinforced with double wood dowels, glue, screw - nails corner
               blocks and machine nails
             </p>
-            <p className="absolute top-[306px] left-[566px] font-lato text-[#ACABC3] font-medium">
+            <p className="absolute top-[306px] left-[566px] font-lato text-[#ACABC3] 
+            font-medium
+            max-sm:left-[40px] max-sm:right-[20px] max-sm:top-[600px]">
               Arms, backs and seats are structurally reinforced
             </p>
-            <i className="fa-solid fa-circle absolute text-[11px] text-[#F52B70] top-[209px] left-[543px]"></i>
-            <i className="fa-solid fa-circle absolute text-[11px] text-[#2B2BF5] top-[246px] left-[543px]"></i>
-            <i className="fa-solid fa-circle absolute text-[11px] text-[#2BF5CC] top-[312px] left-[543px]"></i>
+            <i className="fa-solid fa-circle absolute text-[11px] text-[#F52B70] 
+            top-[209px] left-[543px]
+            max-sm:left-[20px] max-sm:top-[467px]"></i>
+            <i className="fa-solid fa-circle absolute text-[11px] text-[#2B2BF5] 
+            top-[246px] left-[543px]
+            max-sm:left-[20px] max-sm:top-[527px]"></i>
+            <i className="fa-solid fa-circle absolute text-[11px] text-[#2BF5CC] 
+            top-[312px] left-[543px]
+            max-sm:left-[20px] max-sm:top-[607px]"></i>
             <Link href="/pages/cart">
               <button
                 className="bg-[#FB2E86] absolute left-[543px] top-[365px] text-[17px] 
-          text-[#FFFFFF] font-Jose w-[157px] h-[45px] rounded-sm"
+          text-[#FFFFFF] font-Jose w-[157px] h-[45px] rounded-sm
+          
+          max-sm:left-[20px] max-sm:top-[670px]
+          max-sm:text-[14px] max-sm:w-[110px] max-sm:h-[40px]"
               >
                 Add To Cart
               </button>
             </Link>
-            <p className="font-Jose text-[#151875] text-[14px] absolute top-[371px] left-[719px] font-bold">
+            <p className="font-Jose text-[#151875] text-[14px] absolute top-[371px] 
+            left-[719px] font-bold
+            max-sm:left-[150px] max-sm:top-[670px] max-sm:text-[12px]">
               B&B Italian Sofa
             </p>
-            <p className="font-lato text-[#151875] text-[14px] absolute top-[388px] left-[719px]">
+            <p className="font-lato text-[#151875] text-[14px] absolute top-[388px] 
+            left-[719px]
+            max-sm:left-[150px] max-sm:top-[690px] max-sm:text-[12px]">
               $32.00
             </p>
           </div>
         </div>
         {/* unique features end */}
 
-        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute top-[3792px] left-[778px]">
+        <h1 className="font-Jose text-[42px] text-[#1A0B5B] font-bold absolute 
+        top-[3792px] left-[778px]
+        max-sm:left-[40px] max-sm:top-[7150px] max-sm:text-[28px]">
           Trending Products
         </h1>
 
-        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[377px]">
+        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[377px]
+        max-sm:top-[7200px] max-sm:left-[30px]">
           <div className="bg-[#F5F6F8] relative top-[11px] left-[11px] border-2 border-green-400 h-[244px] w-[247px]">
             <Image
               src={lp6}
@@ -670,7 +698,8 @@ function page() {
           </p>
         </div>
 
-        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[673px]">
+        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[673px]
+        max-sm:top-[7600px] max-sm:left-[30px]">
           <div className="bg-[#F5F6F8] relative top-[11px] left-[11px] border-2 border-green-400 h-[244px] w-[247px]">
             <Image
               src={lp7}
@@ -690,7 +719,8 @@ function page() {
           </p>
         </div>
 
-        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[975px]">
+        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[975px]
+        max-sm:top-[8000px] max-sm:left-[30px]">
           <div className="bg-[#F5F6F8] relative top-[11px] left-[11px] border-2 border-green-400 h-[244px] w-[247px]">
             <Image
               src={lp8}
@@ -710,7 +740,8 @@ function page() {
           </p>
         </div>
 
-        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[1274px]">
+        <div className="w-[270px] h-[350px] shadow absolute top-[3873px] left-[1274px]
+        max-sm:top-[8400px] max-sm:left-[30px]">
           <div className="bg-[#F5F6F8] relative top-[11px] left-[11px] border-2 border-green-400 h-[244px] w-[247px]">
             <Image
               src={lp4}
@@ -730,11 +761,17 @@ function page() {
           </p>
         </div>
 
-        <div className="absolute bg-[#FFF6FB] shadow top-[4262px] left-[375px] w-[420px] h-[270px]"></div>
-        <p className="absolute top-[4296px] left-[400px] font-Jose text-[26px] text-[#151875] font-semibold">
+        <div className="absolute bg-[#FFF6FB] shadow top-[4262px] left-[375px] 
+        w-[420px] h-[270px]
+        max-sm:top-[8800px] max-sm:w-[270px] max-sm:left-[30px]"></div>
+
+        <p className="absolute top-[4296px] left-[400px] font-Jose text-[26px]
+         text-[#151875] font-semibold">
           23% off in all products
         </p>
-        <p className="cursor-pointer absolute top-[4333px] underline left-[400px] font-lato text-[16px] text-[#FB2E86] font-semibold">
+        
+        <p className="cursor-pointer absolute top-[4333px] underline left-[400px] 
+        font-lato text-[16px] text-[#FB2E86] font-semibold">
           Shop Now
         </p>
 
@@ -744,7 +781,9 @@ function page() {
           className="absolute w-[213px] h-[207px] top-[4323px] left-[576px]"
         />
 
-        <div className="absolute bg-[#EEEFFB] shadow top-[4262px] left-[824px] w-[420px] h-[270px]"></div>
+        <div className="absolute bg-[#EEEFFB] shadow top-[4262px] left-[824px] 
+        w-[420px] h-[270px]
+        max-sm:top-[9100px] max-sm:w-[270px] max-sm:left-[30px]"></div>
         <p className="absolute top-[4296px] left-[849px] font-Jose text-[26px] text-[#151875] font-semibold">
           23% off in all products
         </p>
@@ -1162,7 +1201,7 @@ function page() {
         </div>
       </main>
 
-      <footer className="absolute top-[7600px]">
+      <footer className="absolute top-[76000px]">
         <Footer />
       </footer>
     </>
