@@ -33,7 +33,7 @@ function Navbar() {
               <p className="hover:text-[#FB2E86]">Pages</p>
             </Link></DropdownMenuItem>
 
-            <DropdownMenuItem><Link href="/pages/product">
+            <DropdownMenuItem><Link href="/product">
               <p className="hover:text-[#FB2E86]">Product</p>
             </Link></DropdownMenuItem>
 
