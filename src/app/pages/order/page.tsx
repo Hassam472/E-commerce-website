@@ -92,7 +92,8 @@ function page() {
       max-sm:top-[700px] max-sm:left-[0px] max-sm:w-[360px]
           max-sm:h-[43px]"
       />
-      <footer className="absolute top-[800px]">
+      <footer className="absolute top-[1304px]
+      max-sm:top-[800px]">
         <Footer />
       </footer>
     </>
