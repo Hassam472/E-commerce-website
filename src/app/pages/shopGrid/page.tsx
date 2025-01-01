@@ -18,28 +18,34 @@ import Footer from "@/components/Footer";
 function shopGrid() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]"></div>
+    <main className="max-sm:max-w-[360px]">
+      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
-      text-[36px] text-[#101750] font-bold"
+      text-[36px] text-[#101750] font-bold
+      max-sm:left-[10px] max-sm:top-[180px] max-sm:text-[22px]"
       >
         Shop Grid Default
       </h1>
       <p
         className="absolute top-[266px] left-[375px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[10px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Home .
       </p>
       <p
         className="absolute top-[266px] left-[431px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[50px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Pages
       </p>
       <p
         className="absolute top-[266px] left-[485px] font-lato
-      text-[16px] text-[#FB2E86] font-medium"
+      text-[16px] text-[#FB2E86] font-medium
+      max-sm:left-[86px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         . Shop Grid Default
       </p>
@@ -49,7 +55,8 @@ function shopGrid() {
       {/* sg1 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[723px] left-[374px] 
-  text-center"
+  text-center
+  max-sm:top-[480px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -60,7 +67,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[66px] text-[#151875]"
+    left-[80px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Vel elit euismod
         </p>
@@ -70,13 +78,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -86,7 +94,8 @@ function shopGrid() {
       {/* sg2 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[723px] left-[697px] 
-  text-center"
+  text-center
+  max-sm:top-[893px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#EBF4F3]">
           <Image
@@ -97,7 +106,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose w-[280px] font-bold text-[18px] absolute top-[298px] 
-     text-[#151875]"
+     text-[#151875]
+     max-sm:text-[14px]"
         >
           Ultricies condimentum imperdiet
         </p>
@@ -107,13 +117,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -123,7 +133,8 @@ function shopGrid() {
       {/* sg3 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[723px] left-[1020px] 
-  text-center"
+  text-center
+  max-sm:top-[1306px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -134,7 +145,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[40px] text-[#151875]"
+    left-[55px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Vitae suspendisse sed
         </p>
@@ -144,13 +156,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -160,7 +172,8 @@ function shopGrid() {
       {/* sg4 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[723px] left-[1343px] 
-  text-center"
+  text-center
+  max-sm:top-[1719px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -171,7 +184,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[56px] text-[#151875]"
+    left-[70px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Sed at fermentum
         </p>
@@ -181,13 +195,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -197,7 +211,8 @@ function shopGrid() {
       {/* sg5 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1167px] left-[374px] 
-  text-center"
+  text-center
+  max-sm:top-[2132px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -208,7 +223,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[41px] text-[#151875]"
+    left-[58px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Fusce pellentesque at
         </p>
@@ -218,13 +234,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -234,7 +250,8 @@ function shopGrid() {
       {/* sg6 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1167px] left-[697px] 
-  text-center"
+  text-center
+  max-sm:top-[2545px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -245,7 +262,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[21px] text-[#151875]"
+    left-[46px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Vestibulum magna laoreet
         </p>
@@ -255,13 +273,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -271,7 +289,8 @@ function shopGrid() {
       {/* sg7 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1167px] left-[1020px] 
-  text-center"
+  text-center
+  max-sm:top-[2958px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -282,7 +301,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[44px] text-[#151875]"
+    left-[60px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Sollicitudin amet orci
         </p>
@@ -292,13 +312,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -308,7 +328,8 @@ function shopGrid() {
       {/* sg8 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1167px] left-[1343px] 
-  text-center"
+  text-center
+  max-sm:top-[3371px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -319,7 +340,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[57px] text-[#151875]"
+    left-[73px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Ultrices mauris sit
         </p>
@@ -329,13 +351,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -345,7 +367,8 @@ function shopGrid() {
       {/* sg9 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1611px] left-[374px] 
-  text-center"
+  text-center
+  max-sm:top-[3784px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -356,7 +379,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[6px] text-[#151875]"
+    left-[36px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Pellentesque condimentum ac
         </p>
@@ -366,13 +390,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -382,7 +406,8 @@ function shopGrid() {
       {/* sg10 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1611px] left-[697px] 
-  text-center"
+  text-center
+  max-sm:top-[4197px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -393,7 +418,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[43px] text-[#151875]"
+    left-[62px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Cras scelerisque velit
         </p>
@@ -403,13 +429,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -419,7 +445,8 @@ function shopGrid() {
       {/* sg11 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1611px] left-[1020px] 
-  text-center"
+  text-center
+  max-sm:top-[4610px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -430,7 +457,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[23px] text-[#151875]"
+    left-[48px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Lectus vulputate faucibus
         </p>
@@ -440,13 +468,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -456,7 +484,8 @@ function shopGrid() {
       {/* sg12 */}
       <div
         className="w-[270px] h-[363px] cursor-pointer absolute top-[1611px] left-[1343px] 
-  text-center"
+  text-center
+  max-sm:top-[5023px] max-sm:left-[40px]"
       >
         <div className="h-[280px] relative bg-[#F6F7FB] hover:bg-[#EBF4F3]">
           <Image
@@ -467,7 +496,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[74px] text-[#151875]"
+    left-[86px] text-[#151875]
+    max-sm:text-[14px]"
         >
           Purus risus, ut
         </p>
@@ -477,13 +507,13 @@ function shopGrid() {
           <i className="fa-solid fa-circle text-[#8568FF]"></i>
         </p>
         <p
-          className="text-[14px] text-[#151875] font-Jose absolute 
+          className="text-[12px] text-[#151875] font-Jose absolute 
           top-[349px] left-[87px]"
         >
           $26.00
         </p>
         <p
-          className="text-[14px] line-through text-[#FB2E86] font-Jose absolute 
+          className="text-[12px] line-through text-[#FB2E86] font-Jose absolute 
           top-[349px] left-[140px]"
         >
           $42.00
@@ -492,12 +522,15 @@ function shopGrid() {
       <Image
         src={logo}
         alt="logo"
-        className="absolute top-[2057px] left-[508px] w-[904px] h-[93px]"
+        className="absolute top-[2057px] left-[508px] w-[904px] h-[93px]
+        max-sm:top-[5450px] max-sm:left-[0px] max-sm:w-[360px]
+          max-sm:h-[43px]"
       />
-      <footer className="absolute top-[2233px]">
+      <footer className="absolute top-[2233px]
+      max-sm:top-[5550px]">
         <Footer/>
       </footer>
-      
+      </main>
     </>
   );
 }

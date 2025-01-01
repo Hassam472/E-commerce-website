@@ -42,14 +42,14 @@ function page() {
         alt="logo"
         className="absolute top-[1114px] left-[508px] 
 w-[904px] h-[93px]
-max-sm:top-[840px] max-sm:left-[0px] max-sm:w-[360px]
+max-sm:top-[780px] max-sm:left-[0px] max-sm:w-[360px]
           max-sm:h-[43px]"
       />
 
       <div
         className="absolute top-[531px] left-[688px] w-[544px] h-[474px] 
       bg-[#FFFFFF] shadow-lg
-      max-sm:w-[340px] max-sm:left-[10px] max-sm:top-[300px]"
+      max-sm:w-[340px] max-sm:h-[380px] max-sm:left-[10px] max-sm:top-[300px]"
       ></div>
 
       <h2
@@ -107,7 +107,7 @@ max-sm:top-[840px] max-sm:left-[0px] max-sm:w-[360px]
       </p>
 
       <footer className="absolute top-[1316px]
-      max-sm:top-[950px]">
+      max-sm:top-[890px]">
         <Footer />
       </footer>
     </>
