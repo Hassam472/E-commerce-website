@@ -65,7 +65,8 @@ function Ecommerce() {
           type="text"
           className="w-[162px] h-[30px]
           absolute top-[11px] left-[1009px] border-[2px] border-[#E7E6EF] text-center
-          text-[#8A8FB9] font-lato text-[16px]"
+          text-[#8A8FB9] font-lato text-[16px]
+          max-sm:hidden"
         />
       </div>
     </>
