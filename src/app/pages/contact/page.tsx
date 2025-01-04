@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import contact from "@/images/contact.png";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 function page() {
   return (
@@ -124,12 +125,16 @@ function page() {
            border-[#A4B6C8B2] pl-3"
         />
 
+
         <button
           className="rounded-sm font-Jose text-[16px] text-[#FFFFFF] bg-[#FB2E86] 
         font-semibold w-[157px] h-[44px]"
         >
+          <Link href="/pages/faq">
           Send Mail
+          </Link>
         </button>
+
       </div>
 
       <footer className="absolute top-[1807px]">

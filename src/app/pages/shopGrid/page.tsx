@@ -67,8 +67,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[80px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[65px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[80px]"
         >
           Vel elit euismod
         </p>
@@ -145,8 +145,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[55px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[45px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[55px]"
         >
           Vitae suspendisse sed
         </p>
@@ -184,8 +184,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[70px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[55px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[70px]"
         >
           Sed at fermentum
         </p>
@@ -223,8 +223,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[58px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[46px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[58px]"
         >
           Fusce pellentesque at
         </p>
@@ -262,8 +262,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[46px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[27px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[46px]"
         >
           Vestibulum magna laoreet
         </p>
@@ -301,8 +301,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[60px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[47px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[60px]"
         >
           Sollicitudin amet orci
         </p>
@@ -340,8 +340,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[73px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[60px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[73px]"
         >
           Ultrices mauris sit
         </p>
@@ -379,8 +379,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[36px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[8px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[36px]"
         >
           Pellentesque condimentum ac
         </p>
@@ -418,8 +418,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[62px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[52px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[62px]"
         >
           Cras scelerisque velit
         </p>
@@ -457,8 +457,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[48px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[28px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[48px]"
         >
           Lectus vulputate faucibus
         </p>
@@ -496,8 +496,8 @@ function shopGrid() {
         </div>
         <p
           className="font-Jose font-bold text-[18px] absolute top-[298px] 
-    left-[86px] text-[#151875]
-    max-sm:text-[14px]"
+    left-[76px] text-[#151875]
+    max-sm:text-[14px] max-sm:left-[86px]"
         >
           Purus risus, ut
         </p>
