@@ -14,8 +14,10 @@ import Footer from "@/components/Footer";
 function shopList() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
-      max-sm:w-[360px] max-sm:h-[166px]"></div>
+      <div
+        className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"
+      ></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
       text-[36px] text-[#101750] font-bold
@@ -45,7 +47,7 @@ function shopList() {
         . Shop List
       </p>
 
-      <Ecommerce/>
+      <Ecommerce />
 
       {/* sl1 */}
       <div
@@ -68,8 +70,10 @@ function shopList() {
       >
         Accumsan tincidunt
       </h2>
-      <p className="absolute top-[710px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[482px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[710px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[482px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -89,27 +93,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[741px] left-[862px] text-xs space-x-1
-      max-sm:top-[500px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[741px] left-[862px] text-xs space-x-1
+      max-sm:top-[500px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[767px] left-[739px] w-[592px]
           max-sm:top-[520px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[844px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[844px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[590px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[590px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl2 */}
@@ -133,8 +143,10 @@ function shopList() {
       >
         In nulla
       </h2>
-      <p className="absolute top-[997px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[665px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[997px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[665px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -154,27 +166,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[1028px] left-[862px] text-xs space-x-1
-      max-sm:top-[685px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[1028px] left-[862px] text-xs space-x-1
+      max-sm:top-[685px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[1054px] left-[739px] w-[592px]
           max-sm:top-[705px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[1131px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[1131px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[775px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[775px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl3 */}
@@ -198,8 +216,10 @@ function shopList() {
       >
         Vel sem
       </h2>
-      <p className="absolute top-[1285px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[850px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[1285px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[850px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -219,27 +239,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[1316px] left-[862px] text-xs space-x-1
-      max-sm:top-[870px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[1316px] left-[862px] text-xs space-x-1
+      max-sm:top-[870px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[1342px] left-[739px] w-[592px]
           max-sm:top-[890px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[1419px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[1419px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[960px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[960px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl4 */}
@@ -263,8 +289,10 @@ function shopList() {
       >
         Porttitor cum
       </h2>
-      <p className="absolute top-[1569px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[1030px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[1569px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[1030px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -284,27 +312,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[1604px] left-[862px] text-xs space-x-1
-      max-sm:top-[1050px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[1604px] left-[862px] text-xs space-x-1
+      max-sm:top-[1050px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[1630px] left-[739px] w-[592px]
           max-sm:top-[1070px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[1707px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[1707px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[1140px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[1140px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl5 */}
@@ -328,8 +362,10 @@ function shopList() {
       >
         Nunc in
       </h2>
-      <p className="absolute top-[1860px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[1210px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[1860px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[1210px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -349,27 +385,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[1891px] left-[862px] text-xs space-x-1
-      max-sm:top-[1230px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[1891px] left-[862px] text-xs space-x-1
+      max-sm:top-[1230px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[1917px] left-[739px] w-[592px]
           max-sm:top-[1250px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[1994px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[1994px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[1320px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[1320px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl6 */}
@@ -393,8 +435,10 @@ function shopList() {
       >
         Vitae facilisis
       </h2>
-      <p className="absolute top-[2147px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[1390px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[2147px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[1390px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -414,27 +458,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[2178px] left-[862px] text-xs space-x-1
-      max-sm:top-[1410px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[2178px] left-[862px] text-xs space-x-1
+      max-sm:top-[1410px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[2204px] left-[739px] w-[592px]
           max-sm:top-[1430px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[2281px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[2281px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[1500px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[1500px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       {/* sl7 */}
@@ -458,8 +508,10 @@ function shopList() {
       >
         Curabitur lectus
       </h2>
-      <p className="absolute top-[2435px] text-[12px] left-[942px] space-x-2
-      max-sm:top-[1570px] max-sm:left-[290px] max-sm:text-[10px]">
+      <p
+        className="absolute top-[2435px] text-[12px] left-[942px] space-x-2
+      max-sm:top-[1570px] max-sm:left-[290px] max-sm:text-[10px]"
+      >
         <i className="fa-solid fa-circle text-[#DE9034]"></i>
         <i className="fa-solid fa-circle text-[#EC42A2]"></i>
         <i className="fa-solid fa-circle text-[#8568FF]"></i>
@@ -479,27 +531,33 @@ function shopList() {
       >
         $42.00
       </p>
-      <div className="absolute top-[2466px] left-[862px] text-xs space-x-1
-      max-sm:top-[1590px] max-sm:left-[245px] max-sm:text-[8px]">
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#FFC416]"></i>
-      <i className="fa-solid fa-star text-[#B2B2B2]"></i>
+      <div
+        className="absolute top-[2466px] left-[862px] text-xs space-x-1
+      max-sm:top-[1590px] max-sm:left-[245px] max-sm:text-[8px]"
+      >
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#FFC416]"></i>
+        <i className="fa-solid fa-star text-[#B2B2B2]"></i>
       </div>
-      <p className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
+      <p
+        className="text-[17px] text-[#9295AA] leading-7 font-lato absolute 
           top-[2492px] left-[739px] w-[592px]
           max-sm:top-[1610px] max-sm:left-[150px] max-sm:text-[10px] max-sm:w-[190px]
-          max-sm:leading-4 max-sm:text-justify">
+          max-sm:leading-4 max-sm:text-justify"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est
         adipiscing in phasellus non in justo.
       </p>
-      <div className="absolute top-[2569px] left-[738px] w-[144px] h-[34px] 
+      <div
+        className="absolute top-[2569px] left-[738px] w-[144px] h-[34px] 
        text-xl space-x-10 text-[#535399]
-       max-sm:text-xs max-sm:top-[1680px] max-sm:left-[150px] max-sm:space-x-5">
-      <i className="fa-solid fa-cart-shopping"></i>
-      <i className="fa-regular fa-heart"></i>
-      <i className="fa-solid fa-magnifying-glass-plus"></i>
+       max-sm:text-xs max-sm:top-[1680px] max-sm:left-[150px] max-sm:space-x-5"
+      >
+        <i className="fa-solid fa-cart-shopping"></i>
+        <i className="fa-regular fa-heart"></i>
+        <i className="fa-solid fa-magnifying-glass-plus"></i>
       </div>
 
       <Image
@@ -510,9 +568,11 @@ function shopList() {
           max-sm:h-[43px]"
       />
 
-<footer className="absolute top-[3094px]
-max-sm:top-[1850px]">
-        <Footer/>
+      <footer
+        className="absolute top-[3094px]
+max-sm:top-[1850px]"
+      >
+        <Footer />
       </footer>
     </>
   );
