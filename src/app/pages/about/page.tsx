@@ -14,54 +14,63 @@ import Link from "next/link";
 function page() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]"></div>
+      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
-      text-[36px] text-[#101750] font-bold"
+      text-[36px] text-[#101750] font-bold
+      max-sm:left-[10px] max-sm:top-[180px] max-sm:text-[22px]"
       >
         About Us
       </h1>
       <p
         className="absolute top-[266px] left-[375px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[10px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Home .
       </p>
       <p
         className="absolute top-[266px] left-[431px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[50px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Pages
       </p>
       <p
         className="absolute top-[266px] left-[485px] font-lato
-      text-[16px] text-[#FB2E86] font-medium"
+      text-[16px] text-[#FB2E86] font-medium
+      max-sm:left-[86px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         . About Us
       </p>
 
       <div
         className="absolute top-[530px] left-[375px] w-[552px] h-[409px] 
-      bg-[#2B3CAB] rounded-md"
+      bg-[#2B3CAB] rounded-md
+      max-sm:w-[220px] max-sm:h-[190px] max-sm:top-[330px] max-sm:left-[60px]"
       ></div>
 
       <Image
         src={about}
         alt="about"
         className="absolute top-[530px] left-[390px] 
-      w-[555px] h-[390px] rounded-md"
+      w-[555px] h-[390px] rounded-md
+      max-sm:w-[220px] max-sm:h-[180px] max-sm:top-[330px] max-sm:left-[70px]"
       />
 
       <h2
         className="absolute top-[571px] left-[975px] font-Jose
-      text-[36px] text-[#151875] font-bold w-[522px]"
+      text-[36px] text-[#151875] font-bold w-[522px]
+      max-sm:left-[60px] max-sm:top-[540px] max-sm:w-[230px] max-sm:text-[22px]"
       >
         Know About Our Ecommerce Business, History
       </h2>
 
       <p
         className="absolute top-[681px] left-[975px] font-lato
-      text-[16px] text-[#8A8FB9] font-semibold w-[550px] leading-6"
+      text-[16px] text-[#8A8FB9] font-semibold w-[550px] leading-6
+      max-sm:left-[60px] max-sm:top-[640px] max-sm:w-[230px] max-sm:text-[12px]"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque
         ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique
@@ -72,7 +81,9 @@ function page() {
       <Link href="/pages/contact">
       <button
         className="absolute top-[830px] left-[975px] rounded-sm font-lato
-      text-[18px] text-[#FFFFFF] bg-[#FB2E86] font-semibold w-[145px] h-[44px]"
+      text-[18px] text-[#FFFFFF] bg-[#FB2E86] font-semibold w-[145px] h-[44px]
+      max-sm:left-[60px] max-sm:top-[795px]
+          max-sm:text-[14px] max-sm:w-[110px] max-sm:h-[40px]"
       >
         Contact us
       </button>
@@ -80,23 +91,31 @@ function page() {
 
       <h3
         className="absolute top-[1080px] left-[827px] font-Jose
-      text-[42px] text-[#000000] font-bold"
+      text-[42px] text-[#000000] font-bold
+      max-sm:left-[100px] max-sm:top-[900px] max-sm:text-[26px]"
       >
         Our Features
       </h3>
 
       <div
         className="absolute top-[1173px] left-[375px] w-[1218px] h-[320px] 
-      flex justify-between"
+      flex justify-between
+
+      max-sm:w-[260px] max-sm:top-[950px] max-sm:space-y-[50px]
+      max-sm:left-[50px] max-sm:flex-col"
       >
+
         <div
           className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
-        text-center pt-40"
+        text-center pt-40
+        max-sm:w-[250px] max-sm:h-[300px] max-sm:space-y-[10px]"
         >
-          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+          <p className="font-Jose text-[22px] text-[#151875] font-bold
+          max-sm:text-[18px]">
             Free Delivery
           </p>
-          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold
+          max-sm:text-[12px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
             gravida.
           </p>
@@ -104,12 +123,15 @@ function page() {
 
         <div
           className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
-        text-center pt-40 border-b-2 border-[#FF9100]"
+        text-center pt-40 border-b-2 border-[#FF9100]
+        max-sm:w-[250px] max-sm:h-[300px] max-sm:space-y-[10px]"
         >
-          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+          <p className="font-Jose text-[22px] text-[#151875] font-bold
+          max-sm:text-[18px]">
             100% Cash Back
           </p>
-          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold
+          max-sm:text-[12px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
             gravida.
           </p>
@@ -118,12 +140,14 @@ function page() {
         <div
           className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
         text-center pt-40
-        "
+        max-sm:w-[250px] max-sm:h-[300px] max-sm:space-y-[10px]"
         >
-          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+          <p className="font-Jose text-[22px] text-[#151875] font-bold
+          max-sm:text-[18px]">
             Quality Product
           </p>
-          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold
+          max-sm:text-[12px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
             gravida.
           </p>
@@ -131,12 +155,15 @@ function page() {
 
         <div
           className="w-[270px] h-[320px] bg-[#FFFFFF] shadow-md space-y-[20px] 
-        text-center pt-40"
+        text-center pt-40
+        max-sm:w-[250px] max-sm:h-[300px] max-sm:space-y-[10px]"
         >
-          <p className="font-Jose text-[22px] text-[#151875] font-bold">
+          <p className="font-Jose text-[22px] text-[#151875] font-bold
+          max-sm:text-[18px]">
             24/7 Support
           </p>
-          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold">
+          <p className="font-lato text-[16px] text-[#1A0B5B4D] font-bold
+          max-sm:text-[12px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus
             gravida.
           </p>
@@ -145,7 +172,9 @@ function page() {
 
       <div
         className="absolute top-[1235px] left-[478px] w-[1002px] h-[65px] 
-      flex justify-between"
+      flex justify-between
+      max-sm:w-[260px] max-sm:top-[1020px] max-sm:space-y-[220px]
+      max-sm:left-[140px] max-sm:flex-col"
       >
         <Image src={sh1} alt="sh1" className="w-[65px] h-[65px]" />
         <Image src={sh2} alt="sh2" className="w-[65px] h-[65px]" />
@@ -155,7 +184,8 @@ function page() {
 
       <div
         className="absolute top-[1626px] w-[1920px] h-[503px] 
-      bg-[#FBFBFF] font-lato text-center content-center text-[#8A8FB9]"
+      bg-[#FBFBFF] font-lato text-center content-center text-[#8A8FB9]
+      max-sm:w-[360px] max-sm:top-[2100px]"
       >
         <p className="text-[#151875] text-[22px] mt-[220px]">Selina Gomez</p>
         <p className="text-[10px]">Ceo At Webecy Digital</p>
@@ -200,7 +230,8 @@ function page() {
         Our Client Say!
       </h3>
 
-      <footer className="absolute top-[2434px]">
+      <footer className="absolute top-[2434px]
+      max-sm:top-[2800px]">
         <Footer />
       </footer>
     </>
