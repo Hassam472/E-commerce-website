@@ -92,7 +92,7 @@ function page() {
       <h3
         className="absolute top-[1080px] left-[827px] font-Jose
       text-[42px] text-[#000000] font-bold
-      max-sm:left-[100px] max-sm:top-[900px] max-sm:text-[26px]"
+      max-sm:left-[90px] max-sm:top-[900px] max-sm:text-[26px]"
       >
         Our Features
       </h3>
@@ -185,17 +185,21 @@ function page() {
       <div
         className="absolute top-[1626px] w-[1920px] h-[503px] 
       bg-[#FBFBFF] font-lato text-center content-center text-[#8A8FB9]
-      max-sm:w-[360px] max-sm:top-[2100px]"
+      max-sm:w-[360px] max-sm:top-[2100px] max-sm:h-[303px]"
       >
-        <p className="text-[#151875] text-[22px] mt-[220px]">Selina Gomez</p>
-        <p className="text-[10px]">Ceo At Webecy Digital</p>
-        <p className="w-[689px] ml-[616px] mt-[30px] text-[16px]">
+        <p className="text-[#151875] text-[22px] mt-[220px]
+        max-sm:text-[14px] max-sm:mt-[100px]">Selina Gomez</p>
+        <p className="text-[10px] max-sm:text-[8px]">Ceo At Webecy Digital</p>
+
+        <p className="w-[689px] ml-[616px] mt-[30px] text-[16px] 
+        max-sm:text-[10px] max-sm:w-[260px] max-sm:ml-[50px] max-sm:mt-[20px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non duis
           ultrices quam vel dui sollicitudin aliquet id arcu. Nam vitae a enim
           nunc, sed sapien egestas ac nam. Tristique ultrices dolor aliquam
           lacus volutpat praesent.
         </p>
-        <p className="text-xl mt-[12px]">
+        <p className="text-xl mt-[12px]
+        max-sm:text-[14px]">
             <i className="fa-solid fa-minus text-[#FF75B0]"></i>
             <i className="fa-solid fa-minus text-[#FB2E86]"></i>
             <i className="fa-solid fa-minus text-[#FF75B0]"></i>
@@ -206,32 +210,36 @@ function page() {
           src={cl1}
           alt="cl1"
           className="w-[55px] h-[55px] rounded-sm 
-        border-[1px] border-green-400 absolute top-[1810px] left-[860px]"
+        border-[1px] border-green-400 absolute top-[1810px] left-[860px]
+        max-sm:top-[2185px] max-sm:left-[120px] max-sm:w-[35px] max-sm:h-[35px]"
         />
         <Image
           src={cl2}
           alt="cl2"
           className="w-[55px] h-[59px] rounded-sm 
-        border-[1px] border-green-400 absolute top-[1800px] left-[925px]"
+        border-[1px] border-green-400 absolute top-[1800px] left-[925px]
+        max-sm:top-[2175px] max-sm:left-[159px] max-sm:w-[35px] max-sm:h-[35px]"
         />
         <Image
           src={cl3}
           alt="cl3"
           className="w-[55px] h-[55px] rounded-sm 
-        border-[1px] border-green-400 absolute top-[1810px] left-[990px]"
+        border-[1px] border-green-400 absolute top-[1810px] left-[990px]
+        max-sm:top-[2185px] max-sm:left-[200px] max-sm:w-[35px] max-sm:h-[35px]"
         />
 
       
 
       <h3
         className="absolute top-[1697px] left-[809px] font-Jose
-      text-[42px] text-[#000000] font-bold"
+      text-[42px] text-[#000000] font-bold
+      max-sm:text-[22px] max-sm:top-[2120px] max-sm:left-[100px]"
       >
         Our Client Say!
       </h3>
 
       <footer className="absolute top-[2434px]
-      max-sm:top-[2800px]">
+      max-sm:top-[2500px]">
         <Footer />
       </footer>
     </>
