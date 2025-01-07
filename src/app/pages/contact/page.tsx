@@ -84,7 +84,7 @@ function page() {
         className="w-[389px] h-[155px] gap-x-[200px] gap-y-[50px] absolute top-[601px] left-[1104px]
           font-lato font-semibold text-[#8A8FB9] text-[16px] grid grid-cols-2 grid-rows-2
 
-          max-sm:left-[40px] max-sm:top-[630px] max-sm:gap-x-[30px] max-sm:gap-y-[0px]
+          max-sm:left-[40px] max-sm:top-[630px] max-sm:gap-x-[20px] max-sm:gap-y-[0px]
              max-sm:text-[10px] max-sm:w-[340px]"
       >
         <p className="w-[172px]
@@ -99,11 +99,15 @@ function page() {
         max-sm:w-[110px]">Free standard shipping on all orders.</p>
       </div>
 
-      <div className="space-y-[13px] absolute top-[908px] left-[375px]">
-        <h2 className="font-Jose text-[36px] text-[#151875] font-bold">
+      <div className="space-y-[13px] absolute top-[908px] left-[375px]
+      max-sm:top-[800px] max-sm:left-[10px]">
+        <h2 className="font-Jose text-[36px] text-[#151875] font-bold
+        max-sm:text-[22px]">
           Get In Touch
         </h2>
-        <p className="font-lato w-[550px] text-[16px] text-[#8A8FB9] leading-6 font-semibold">
+        <p className="font-lato w-[550px] text-[16px] text-[#8A8FB9] leading-6 
+        font-semibold
+        max-sm:text-[12px] max-sm:w-[340px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque
           ultrices tristique amet erat vitae eget dolor los vitae lobortis quis
           bibendum quam.
@@ -113,36 +117,42 @@ function page() {
       <Image
         src={contact}
         alt="contact"
-        className="absolute top-[876px] left-[927px]"
+        className="absolute top-[876px] left-[927px]
+        max-sm:top-[950px] max-sm:left-[40px] max-sm:w-[270px] max-sm:h-[270px]"
       />
 
       <div
         className="absolute top-[1050px] left-[377px] font-lato text-[16px] 
-      text-[#8A8FB9] w-[534px] space-y-8"
+      text-[#8A8FB9] w-[534px] space-y-8
+      max-sm:top-[1250px] max-sm:left-[10px] max-sm:w-[340px] max-sm:text-[12px]"
       >
         <input
           type="text"
           placeholder="Your Name*"
-          className="w-[255px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] pl-3"
+          className="w-[255px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] 
+          pl-3"
         />
 
         <input
           type="text"
           placeholder="Your E-mail"
-          className="w-[255px] h-[45px] ml-5 rounded-[3px] border-[1px] border-[#A4B6C8B2] pl-3"
+          className="w-[255px] h-[45px] ml-5 rounded-[3px] border-[1px] border-[#A4B6C8B2]
+          pl-3"
         />
 
         <input
           type="text"
           placeholder="Subject*"
-          className="w-[534px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] pl-3"
+          className="w-[534px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] 
+          pl-3"
         />
 
         <input
           type="text"
           placeholder="Type Your Messege*"
           className="w-[534px] h-[166px] rounded-[3px] border-[1px]
-           border-[#A4B6C8B2] pl-3"
+           border-[#A4B6C8B2] pl-3
+           "
         />
 
 
