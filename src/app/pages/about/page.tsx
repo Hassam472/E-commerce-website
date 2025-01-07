@@ -14,6 +14,7 @@ import Link from "next/link";
 function page() {
   return (
     <>
+    <main className="max-sm:w-[360px]">
       <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
       max-sm:w-[360px] max-sm:h-[166px]"></div>
       <h1
@@ -173,7 +174,7 @@ function page() {
       <div
         className="absolute top-[1235px] left-[478px] w-[1002px] h-[65px] 
       flex justify-between
-      max-sm:w-[260px] max-sm:top-[1020px] max-sm:space-y-[220px]
+      max-sm:w-[220px] max-sm:top-[1020px] max-sm:space-y-[220px]
       max-sm:left-[140px] max-sm:flex-col"
       >
         <Image src={sh1} alt="sh1" className="w-[65px] h-[65px]" />
@@ -237,6 +238,7 @@ function page() {
       >
         Our Client Say!
       </h3>
+      </main>
 
       <footer className="absolute top-[2434px]
       max-sm:top-[2500px]">
