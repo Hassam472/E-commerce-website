@@ -14,7 +14,7 @@ import Link from "next/link";
 function page() {
   return (
     <>
-    <main className="max-sm:w-[360px]">
+    
       <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
       max-sm:w-[360px] max-sm:h-[166px]"></div>
       <h1
@@ -238,8 +238,7 @@ function page() {
       >
         Our Client Say!
       </h3>
-      </main>
-
+      
       <footer className="absolute top-[2434px]
       max-sm:top-[2500px]">
         <Footer />
