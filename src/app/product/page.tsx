@@ -16,43 +16,51 @@ import Footer from "@/components/Footer";
 function page() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]"></div>
+      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
-      text-[36px] text-[#101750] font-bold"
+      text-[36px] text-[#101750] font-bold
+      max-sm:left-[10px] max-sm:top-[180px] max-sm:text-[22px]"
       >
         Product Details
       </h1>
       <p
         className="absolute top-[266px] left-[375px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[10px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Home .
       </p>
       <p
         className="absolute top-[266px] left-[431px] font-lato
-      text-[16px] text-[#000000] font-medium"
+      text-[16px] text-[#000000] font-medium
+      max-sm:left-[50px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         Pages
       </p>
       <p
         className="absolute top-[266px] left-[485px] font-lato
-      text-[16px] text-[#FB2E86] font-medium"
+      text-[16px] text-[#FB2E86] font-medium
+      max-sm:left-[86px] max-sm:top-[210px] max-sm:text-[12px]"
       >
         . Product Details
       </p>
 
       <div
         className="absolute top-[532px] left-[371px] w-[1170px] h-[509px]
-       bg-[#FFFFFF] shadow-md"
+       bg-[#FFFFFF] shadow-md
+       max-sm:w-[340px] max-sm:h-[390px] max-sm:left-[10px] max-sm:top-[330px]"
       ></div>
       <h2
         className="absolute top-[606px] left-[972px] font-semibold
-      text-[36px] text-[#0D134E] font-Jose"
+      text-[36px] text-[#0D134E] font-Jose
+      max-sm:text-[16px] max-sm:top-[360px] max-sm:left-[180px]"
       >
         Playwood arm chair
       </h2>
-      <div className="absolute top-[655px] left-[976px] text-[9px] space-x-1">
+      <div className="absolute top-[655px] left-[976px] text-[9px] space-x-1
+      max-sm:left-[180px] max-sm:top-[385px] max-sm:text-[8px]">
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -61,31 +69,36 @@ function page() {
       </div>
       <p
         className="text-[14px] text-[#151875] font-Jose absolute 
-          top-[651px] left-[1050px]"
+          top-[651px] left-[1050px]
+          max-sm:left-[250px] max-sm:top-[385px] max-sm:text-[10px]"
       >
         (22)
       </p>
       <p
         className="text-[16px] text-[#111C85] font-Jose absolute 
-          top-[681px] left-[975px]"
+          top-[681px] left-[975px]
+          max-sm:left-[180px] max-sm:top-[405px] max-sm:text-[10px]"
       >
         $32.00
       </p>
       <p
         className="text-[16px] line-through text-[#FF2AAA] font-Jose absolute 
-          top-[681px] left-[1042px]"
+          top-[681px] left-[1042px]
+          max-sm:left-[220px] max-sm:top-[405px] max-sm:text-[10px]"
       >
         $42.00
       </p>
       <p
         className="text-[16px] text-[#0D134E] font-Jose absolute 
-          top-[722px] left-[976px]"
+          top-[722px] left-[976px]
+          max-sm:left-[180px] max-sm:top-[425px] max-sm:text-[10px]"
       >
         Color
       </p>
       <p
         className="text-[16px] text-[#A9ACC6] w-[549px] font-Jose absolute 
-          top-[750px] left-[975px]"
+          top-[750px] left-[975px]
+          max-sm:left-[180px] max-sm:top-[445px] max-sm:text-[10px] max-sm:w-[170px]"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus
         porttitor purus, et volutpat sit.
@@ -93,61 +106,70 @@ function page() {
       <Link href="/pages/cart">
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
-          top-[829px] left-[1046px]"
+          top-[829px] left-[1046px]
+          max-sm:left-[210px] max-sm:top-[500px] max-sm:text-[10px]"
       >
         Add To cart
-        <i className="fa-regular fa-heart pl-7 text-[18px]"></i>
+        <i className="fa-regular fa-heart pl-7 text-[18px]
+        max-sm:text-[10px] max-sm:pl-3"></i>
       </p>
       </Link>
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
-          top-[875px] left-[975px]"
+          top-[875px] left-[975px] max-sm:hidden"
       >
         Categories:
       </p>
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
-          top-[914px] left-[975px]"
+          top-[914px] left-[975px] max-sm:hidden"
       >
         Tags
       </p>
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
-          top-[953px] left-[975px]"
+          top-[953px] left-[975px]
+          max-sm:left-[180px] max-sm:top-[520px] max-sm:text-[10px]"
       >
         Share
       </p>
       <Image
         src={icon}
         alt="icon"
-        className="w-[56px] h-[12px] absolute top-[958px] left-[1032px]"
+        className="w-[56px] h-[12px] absolute top-[958px] left-[1032px]
+        max-sm:left-[220px] max-sm:top-[523px] max-sm:w-[36px] max-sm:h-[8px]"
       />
 
-      <div className="absolute top-[1172px] bg-[#F9F8FE] w-[1920px] h-[649px]"></div>
+      <div className="absolute top-[1172px] bg-[#F9F8FE] w-[1920px] h-[649px]
+      max-sm:w-[360px] max-sm:left-0 max-sm:top-[840px]"></div>
 
       <Image
         src={pr1}
         alt="pr1"
         className="w-[375px] h-[487px] absolute 
-    top-[545px] left-[556px] rounded"
+    top-[545px] left-[556px] rounded
+    max-sm:top-[340px] max-sm:left-[20px] max-sm:w-[150px] max-sm:h-[200px]"
       />
       <Image
         src={pr2}
         alt="pr2"
         className="w-[151px] h-[155px] absolute 
-    top-[545px] left-[384px] rounded"
+    top-[545px] left-[384px] rounded
+    max-sm:top-[570px] max-sm:left-[20px] max-sm:w-[100px] max-sm:h-[100px]"
       />
       <Image
         src={pr3}
         alt="pr3"
         className="w-[151px] h-[155px] absolute 
-    top-[711px] left-[384px] rounded"
+    top-[711px] left-[384px] rounded
+    max-sm:top-[570px] max-sm:left-[130px] max-sm:w-[100px] max-sm:h-[100px]"
       />
       <Image
         src={pr4}
         alt="pr4"
         className="w-[151px] h-[155px] absolute 
-    top-[877px] left-[384px] rounded"
+    top-[877px] left-[384px] rounded
+    max-sm:top-[570px] max-sm:left-[240px] max-sm:w-[100px] max-sm:h-[100px]"
       />
 
       <div
