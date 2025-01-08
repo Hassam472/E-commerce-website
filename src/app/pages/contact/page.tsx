@@ -39,7 +39,7 @@ function page() {
       </p>
 
       <div className="space-y-[13px] absolute top-[531px] left-[375px]
-      max-sm:left-[10px] max-sm:top-[340px]">
+      max-sm:left-[10px] max-sm:top-[340px] max-sm:text-center">
         <h2 className="font-Jose text-[36px] text-[#151875] font-bold
         max-sm:text-[22px]">
           Information About us
@@ -53,7 +53,7 @@ function page() {
           quis bibendum quam.
         </p>
         <p className="w-[103px] h-[25px] text-[25px] pt-[20px] flex justify-between
-        max-sm:text-[14px] max-sm:w-[80px]">
+        max-sm:text-[14px] max-sm:w-[80px] max-sm:ml-[125px] max-sm:pt-[10px]">
           <i className="fa-solid fa-circle text-[#5625DF]"></i>
           <i className="fa-solid fa-circle text-[#FF27B7]"></i>
           <i className="fa-solid fa-circle text-[#37DAF3]"></i>
@@ -63,7 +63,7 @@ function page() {
       <h2
         className="font-Jose text-[36px] text-[#151875] font-bold
           absolute top-[531px] left-[1044px]
-          max-sm:left-[10px] max-sm:top-[580px] max-sm:text-[22px]"
+          max-sm:left-[110px] max-sm:top-[580px] max-sm:text-[22px]"
       >
         Contact Way
       </h2>
@@ -100,7 +100,7 @@ function page() {
       </div>
 
       <div className="space-y-[13px] absolute top-[908px] left-[375px]
-      max-sm:top-[800px] max-sm:left-[10px]">
+      max-sm:top-[800px] max-sm:left-[10px] max-sm:text-center">
         <h2 className="font-Jose text-[36px] text-[#151875] font-bold
         max-sm:text-[22px]">
           Get In Touch
@@ -124,27 +124,31 @@ function page() {
       <div
         className="absolute top-[1050px] left-[377px] font-lato text-[16px] 
       text-[#8A8FB9] w-[534px] space-y-8
-      max-sm:top-[1250px] max-sm:left-[10px] max-sm:w-[340px] max-sm:text-[12px]"
+      max-sm:top-[1250px] max-sm:left-[10px] max-sm:w-[340px] max-sm:text-[12px]
+      max-sm:space-y-4"
       >
         <input
           type="text"
           placeholder="Your Name*"
           className="w-[255px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] 
-          pl-3"
+          pl-3
+          max-sm:w-[330px]"
         />
 
         <input
           type="text"
           placeholder="Your E-mail"
           className="w-[255px] h-[45px] ml-5 rounded-[3px] border-[1px] border-[#A4B6C8B2]
-          pl-3"
+          pl-3
+          max-sm:w-[330px] max-sm:ml-0"
         />
 
         <input
           type="text"
           placeholder="Subject*"
           className="w-[534px] h-[45px] rounded-[3px] border-[1px] border-[#A4B6C8B2] 
-          pl-3"
+          pl-3
+          max-sm:w-[330px] max-sm:h-[45px]"
         />
 
         <input
@@ -152,13 +156,15 @@ function page() {
           placeholder="Type Your Messege*"
           className="w-[534px] h-[166px] rounded-[3px] border-[1px]
            border-[#A4B6C8B2] pl-3
-           "
+           max-sm:w-[330px] max-sm:h-[166px]"
         />
 
 
         <button
           className="rounded-sm font-Jose text-[16px] text-[#FFFFFF] bg-[#FB2E86] 
-        font-semibold w-[157px] h-[44px]"
+        font-semibold w-[157px] h-[44px]
+        
+          max-sm:text-[14px] max-sm:w-[110px] max-sm:h-[40px] max-sm:ml-[110px]"
         >
           <Link href="/pages/faq">
           Send Mail
@@ -167,7 +173,8 @@ function page() {
 
       </div>
 
-      <footer className="absolute top-[1807px]">
+      <footer className="absolute top-[1807px]
+      max-sm:top-[1750px]">
           <Footer />
         </footer>
     </>
