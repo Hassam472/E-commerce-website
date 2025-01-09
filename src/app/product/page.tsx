@@ -16,8 +16,10 @@ import Footer from "@/components/Footer";
 function page() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
-      max-sm:w-[360px] max-sm:h-[166px]"></div>
+      <div
+        className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"
+      ></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
       text-[36px] text-[#101750] font-bold
@@ -59,8 +61,10 @@ function page() {
       >
         Playwood arm chair
       </h2>
-      <div className="absolute top-[655px] left-[976px] text-[9px] space-x-1
-      max-sm:left-[180px] max-sm:top-[385px] max-sm:text-[8px]">
+      <div
+        className="absolute top-[655px] left-[976px] text-[9px] space-x-1
+      max-sm:left-[180px] max-sm:top-[385px] max-sm:text-[8px]"
+      >
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -104,15 +108,17 @@ function page() {
         porttitor purus, et volutpat sit.
       </p>
       <Link href="/pages/cart">
-      <p
-        className="text-[16px] text-[#151875] font-Jose absolute 
+        <p
+          className="text-[16px] text-[#151875] font-Jose absolute 
           top-[829px] left-[1046px]
           max-sm:left-[210px] max-sm:top-[500px] max-sm:text-[10px]"
-      >
-        Add To cart
-        <i className="fa-regular fa-heart pl-7 text-[18px]
-        max-sm:text-[10px] max-sm:pl-3"></i>
-      </p>
+        >
+          Add To cart
+          <i
+            className="fa-regular fa-heart pl-7 text-[18px]
+        max-sm:text-[10px] max-sm:pl-3"
+          ></i>
+        </p>
       </Link>
       <p
         className="text-[16px] text-[#151875] font-Jose absolute 
@@ -140,8 +146,10 @@ function page() {
         max-sm:left-[220px] max-sm:top-[523px] max-sm:w-[36px] max-sm:h-[8px]"
       />
 
-      <div className="absolute top-[1172px] bg-[#F9F8FE] w-[1920px] h-[649px]
-      max-sm:w-[360px] max-sm:left-0 max-sm:top-[840px]"></div>
+      <div
+        className="absolute top-[1172px] bg-[#F9F8FE] w-[1920px] h-[649px]
+      max-sm:w-[360px] max-sm:left-0 max-sm:top-[840px] max-sm:h-[600px]"
+      ></div>
 
       <Image
         src={pr1}
@@ -174,7 +182,8 @@ function page() {
 
       <div
         className="w-[620px] flex justify-between absolute top-[1280px] left-[376px] 
-    text-[24px] text-[#151875] font-Jose font-semibold"
+    text-[24px] text-[#151875] font-Jose font-semibold
+    max-sm:text-[14px] max-sm:top-[870px] max-sm:left-[10px] max-sm:w-[340px]"
       >
         <p className="underline">Description</p>
         <p>Additional Info</p>
@@ -184,13 +193,16 @@ function page() {
 
       <p
         className="absolute top-[1364px] left-[371px] 
-    text-[22px] text-[#151875] font-Jose font-semibold"
+    text-[22px] text-[#151875] font-Jose font-semibold
+    max-sm:text-[14px] max-sm:top-[910px] max-sm:left-[10px]"
       >
         Varius tempor.
       </p>
       <p
         className=" w-[1153px] leading-7 absolute top-[1400px] left-[374px] 
-    text-[16px] text-[#A9ACC6] font-Jose"
+    text-[16px] text-[#A9ACC6] font-Jose
+    max-sm:text-[12px] max-sm:top-[935px] max-sm:left-[10px] max-sm:w-[340px]
+    max-sm:leading-5 max-sm:text-justify"
       >
         Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare
         faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac
@@ -203,14 +215,17 @@ function page() {
 
       <p
         className="absolute top-[1523px] left-[371px] 
-    text-[22px] text-[#151875] font-Jose font-semibold"
+    text-[22px] text-[#151875] font-Jose font-semibold
+    max-sm:text-[14px] max-sm:top-[1150px] max-sm:left-[10px]"
       >
         More details
       </p>
 
       <p
-        className=" w-[1153px] leading-10 absolute top-[1561px] left-[405px] 
-    text-[16px] text-[#A9ACC6] font-Jose"
+        className="w-[1153px] leading-10 absolute top-[1561px] left-[405px] 
+    text-[16px] text-[#A9ACC6] font-Jose
+    max-sm:text-[12px] max-sm:top-[1175px] 
+max-sm:left-[30px] max-sm:w-[280px] max-sm:leading-5"
       >
         Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu,
         nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
@@ -222,9 +237,11 @@ function page() {
         vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo
         netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .
       </p>
+
       <div
         className="flex flex-col h-[140px] justify-between absolute
-       top-[1569px] left-[380px] text-[18px]"
+       top-[1569px] left-[380px] text-[18px]
+       max-sm:top-[1178px] max-sm:left-[10px] max-sm:text-[14px] max-sm:h-[192px]"
       >
         <i className="fa-solid fa-arrow-right"></i>
         <i className="fa-solid fa-arrow-right"></i>
@@ -234,7 +251,8 @@ function page() {
 
       <h1
         className="absolute top-[1947px] left-[371px] font-Jose
-      text-[36px] text-[#101750] font-bold"
+      text-[36px] text-[#101750] font-bold
+      max-sm:left-[85px] max-sm:top-[1480px] max-sm:text-[22px]"
       >
         Related Products
       </h1>
@@ -243,39 +261,47 @@ function page() {
         src={rp1}
         alt="rp1"
         className="w-[270px] h-[340px] absolute 
-    top-[2030px] left-[371px] rounded"
+    top-[2030px] left-[371px] rounded
+    max-sm:top-[1530px] max-sm:left-[40px] max-sm:h-[180px] max-sm:w-[130px]"
       />
 
       <Image
         src={rp2}
         alt="rp2"
         className="w-[250px] h-[316px] absolute 
-    top-[2042px] left-[680px] rounded"
+    top-[2042px] left-[680px] rounded
+    max-sm:top-[1530px] max-sm:left-[190px] max-sm:h-[180px] max-sm:w-[130px]"
       />
 
       <Image
         src={rp3}
         alt="rp3"
         className="w-[270px] h-[340px] absolute 
-    top-[2030px] left-[969px] rounded"
+    top-[2030px] left-[969px] rounded
+    max-sm:top-[1730px] max-sm:left-[40px] max-sm:h-[180px] max-sm:w-[130px]"
       />
 
       <Image
         src={rp4}
         alt="rp4"
         className="w-[270px] h-[340px] absolute 
-    top-[2030px] left-[1268px] rounded"
+    top-[2030px] left-[1268px] rounded
+    max-sm:top-[1730px] max-sm:left-[190px] max-sm:h-[180px] max-sm:w-[130px]"
       />
 
       <div
         className="text-[#151875] text-[16px] w-[147px] font-Jose absolute 
-          top-[2390px] left-[377px] font-semibold"
+          top-[2390px] left-[377px] font-semibold
+          max-sm:hidden"
       >
         Mens Fashion Wear
         <p className="text-[13px] pt-[14px]">$43.00</p>
       </div>
 
-      <div className="absolute top-[2390px] left-[572px] text-[9px] space-x-1">
+      <div
+        className="absolute top-[2390px] left-[572px] text-[9px] space-x-1
+      max-sm:hidden"
+      >
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -285,13 +311,17 @@ function page() {
 
       <div
         className="text-[#151875] text-[16px] w-[147px] font-Jose absolute 
-          top-[2390px] left-[673px] font-semibold"
+          top-[2390px] left-[673px] font-semibold
+          max-sm:hidden"
       >
         Women’s Fashion
         <p className="text-[13px] pt-[14px]">$67.00</p>
       </div>
 
-      <div className="absolute top-[2390px] left-[861px] text-[9px] space-x-1">
+      <div
+        className="absolute top-[2390px] left-[861px] text-[9px] space-x-1
+      max-sm:hidden"
+      >
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -301,13 +331,17 @@ function page() {
 
       <div
         className="text-[#151875] text-[16px] w-[187px] font-Jose absolute 
-          top-[2387px] left-[975px] font-semibold"
+          top-[2387px] left-[975px] font-semibold
+          max-sm:hidden"
       >
         Wolx Dummy Fashion
         <p className="text-[13px] pt-[14px]">$67.00</p>
       </div>
 
-      <div className="absolute top-[2390px] left-[1170px] text-[9px] space-x-1">
+      <div
+        className="absolute top-[2390px] left-[1170px] text-[9px] space-x-1
+      max-sm:hidden"
+      >
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -317,13 +351,17 @@ function page() {
 
       <div
         className="text-[#151875] text-[16px] w-[187px] font-Jose absolute 
-          top-[2389px] left-[1276px] font-semibold"
+          top-[2389px] left-[1276px] font-semibold
+          max-sm:hidden"
       >
         Top Wall Digital Clock
         <p className="text-[13px] pt-[14px]">$51.00</p>
       </div>
 
-      <div className="absolute top-[2390px] left-[1469px] text-[9px] space-x-1">
+      <div
+        className="absolute top-[2390px] left-[1469px] text-[9px] space-x-1
+      max-sm:hidden"
+      >
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
         <i className="fa-solid fa-star text-[#FFC416]"></i>
@@ -334,10 +372,15 @@ function page() {
       <Image
         src={logo}
         alt="logo"
-        className="absolute top-[2559px] left-[508px] w-[904px] h-[93px]"
+        className="absolute top-[2559px] left-[508px] w-[904px] h-[93px]
+        max-sm:top-[1980px] max-sm:left-[0px] max-sm:w-[360px]
+          max-sm:h-[43px]"
       />
-      <footer className="absolute top-[2751px]">
-        <Footer/>
+      <footer
+        className="absolute top-[2751px]
+      max-sm:top-[2070px]"
+      >
+        <Footer />
       </footer>
     </>
   );

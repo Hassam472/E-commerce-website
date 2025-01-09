@@ -7,7 +7,7 @@ function HeadingBar() {
     <div className='h-[44px] max-w-[1920px] flex bg-[#7E33E0] relative text-[16px] 
     justify-evenly items-center text-[#F1F1F1] font-Jose
     
-    max-sm:w-[360px] max-sm:h-[50px] max-sm:text-[8px] max-sm:justify-evenly'>
+    max-sm:w-[360px] max-sm:h-[50px] max-sm:text-[10px] max-sm:justify-evenly'>
 
       <div className='relative flex space-x-7
       
@@ -15,7 +15,7 @@ function HeadingBar() {
         
           <p>
           <i className="fa-regular fa-envelope pr-2"></i>      
-            syedhassamshah287@gmail.com
+            <a href="mailto:syedhassamshah287@gmail.com">syedhassamshah287@gmail.com</a>
           </p>
         
           
@@ -28,9 +28,9 @@ function HeadingBar() {
       <div className='relative'>
         <ul className='flex space-x-7
         
-        max-sm:space-x-2 max-sm:text-[9px]'>
-        <Link href="/pages/404"><li>English <i className="fa-solid fa-v text-[8px]"></i></li></Link>
-        <Link href="/pages/404"><li>USD <i className="fa-solid fa-v text-[8px]"></i></li></Link>
+        max-sm:space-x-3 max-sm:text-[10px]'>
+        <Link href="/pages/404"><li className='max-sm:hidden'>English <i className="fa-solid fa-v text-[8px]"></i></li></Link>
+        <Link href="/pages/404"><li className='max-sm:hidden'>USD <i className="fa-solid fa-v text-[8px]"></i></li></Link>
           <Link href="/pages/login"><li>Login <i className="fa-regular fa-user text-[12px]"></i></li></Link>
           <Link href="/pages/404"><li>Wishlist <i className="fa-regular fa-heart text-[12px]"></i></li></Link>
           <Link href="/pages/cart"><i className="fa-solid fa-cart-shopping text-xl"></i></Link>

@@ -6,8 +6,10 @@ import logo from "@/images/logo.png";
 function page() {
   return (
     <>
-      <div className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
-      max-sm:w-[360px] max-sm:h-[166px]"></div>
+      <div
+        className="absolute top-[125px] w-[1920px] h-[286px] bg-[#F6F5FF]
+      max-sm:w-[360px] max-sm:h-[166px]"
+      ></div>
       <h1
         className="absolute top-[221px] left-[374px] font-Jose
       text-[36px] text-[#101750] font-bold
@@ -90,14 +92,14 @@ max-sm:top-[780px] max-sm:left-[0px] max-sm:w-[360px]
         Forgot your password?
       </p>
       <button
-          className="absolute top-[860px] left-[744px] font-lato
+        className="absolute top-[860px] left-[744px] font-lato
       text-[17px] text-[#FFFFFF] text-center w-[432px] h-[47px] 
       rounded-[3px] bg-[#FB2E86] font-bold
       max-sm:w-[300px] max-sm:text-[12px] max-sm:top-[560px] max-sm:left-[30px]
       max-sm:h-[38px]"
-        >
-          Sign In
-        </button>
+      >
+        Sign In
+      </button>
       <p
         className="absolute top-[935px] left-[820px] font-lato
       text-[17px] text-[#9096B2]
@@ -106,8 +108,10 @@ max-sm:top-[780px] max-sm:left-[0px] max-sm:w-[360px]
         Don’t have an Account?Create account
       </p>
 
-      <footer className="absolute top-[1316px]
-      max-sm:top-[890px]">
+      <footer
+        className="absolute top-[1316px]
+      max-sm:top-[890px]"
+      >
         <Footer />
       </footer>
     </>

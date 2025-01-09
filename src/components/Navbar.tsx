@@ -10,16 +10,39 @@ function Navbar() {
       className="relative max-w-[1177px] h-[80px] left-[371px] flex justify-center 
     items-center
     
-    max-sm:left-2 max-sm:justify-start"
+    max-sm:left-0 max-sm:w-[340px]"
     >
       <div
         className="w-[1177px] h-[40px] text-[#0D0E43] flex relative font-Jose 
         justify-between items-center
         
-        max-sm:w-[150px]"
+        max-sm:w-[340px]"
       >
 
-<div className="hidden max-sm:block max-sm:font-lato max-sm:text-[24px]">
+<Link href="/">
+       <div className="text-[34px] font-bold cursor-pointer
+       
+       max-sm:text-[28px] max-sm:ml-[10px]">Hekto</div>
+       </Link>
+
+       <div className="relative flex ml-5
+       max-sm:ml-0 max-sm:absolute max-sm:right-10">
+          <input
+            type="text"
+            className="h-[40px] font-Jose text-[20px] w-[266px] border-[2px]
+ border-[#E7E6EF] rounded-tl rounded-bl
+ 
+ max-sm:h-[30px] max-sm:text-[14px] max-sm:w-[100px]"
+          />
+
+          <i
+            className="fa-solid fa-magnifying-glass cursor-pointer h-[40px] w-[51px] text-center 
+content-center text-[20px] text-[#F3F9FF] rounded-tr rounded-br bg-[#FB2E86]
+max-sm:h-[30px] max-sm:text-[14px] max-sm:w-[31px]"
+          ></i>
+        </div>
+
+<div className="hidden max-sm:block max-sm:font-lato max-sm:text-[24px] max-sm:absolute max-sm:right-0">
       <DropdownMenu>
         <DropdownMenuTrigger><i className="fa-solid fa-bars"></i></DropdownMenuTrigger>
 
@@ -53,11 +76,7 @@ function Navbar() {
       </DropdownMenu>
     </div>
 
-       <Link href="/">
-       <div className="text-[34px] font-bold cursor-pointer
        
-       max-sm:text-[28px] max-sm:ml-24">Hekto</div>
-       </Link>
        
         <div>
           <ul className="flex space-x-7 font-lato text-[16px]
@@ -84,21 +103,7 @@ function Navbar() {
           </ul>
         </div>
 
-        <div className="relative flex ml-5">
-          <input
-            type="text"
-            className="h-[40px] font-Jose text-[20px] w-[266px] border-[2px]
- border-[#E7E6EF] rounded-tl rounded-bl
- 
- max-sm:h-[30px] max-sm:text-[14px] max-sm:w-[100px]"
-          />
-
-          <i
-            className="fa-solid fa-magnifying-glass cursor-pointer h-[40px] w-[51px] text-center 
-content-center text-[20px] text-[#F3F9FF] rounded-tr rounded-br bg-[#FB2E86]
-max-sm:h-[30px] max-sm:text-[14px] max-sm:w-[31px]"
-          ></i>
-        </div>
+        
       </div>
     </div>
     
